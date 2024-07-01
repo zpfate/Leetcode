@@ -125,3 +125,10 @@ print("======\(solution.maximalSquare([["0","1"],["1","0"]]))")
 //canPartition([1, 5, 10, 6])
 
 print("当前借\(solution.detectCapitalUse("FkkLG"))")
+
+
+//print("岛屿数量:\(solution.numIslands([["1","1","1","1","0"],["1","1","0","1","0"],["1","1","0","0","0"],["0","0","0","0","0"]]))")
+
+
+//print("2741. 特别的排列: \(solution.specialPerm([1,2,4,8,16,32,64,128,256,512,1024,2048,4096,8192]))")
+print("111111====\(solution.smallestString("cbabc"))")
