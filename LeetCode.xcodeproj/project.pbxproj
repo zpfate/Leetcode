@@ -40,6 +40,7 @@
 		4B6DC9A82C2D01A1008A9C1E /* Solution2734.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9A72C2D01A1008A9C1E /* Solution2734.swift */; };
 		4B6DC9AC2C3238E9008A9C1E /* Solution104.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9AB2C3238E9008A9C1E /* Solution104.swift */; };
 		4B6DC9B02C323E0D008A9C1E /* Solution226.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9AF2C323E0D008A9C1E /* Solution226.swift */; };
+		4B6DC9B42C338EB8008A9C1E /* Solution3115.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9B32C338EB8008A9C1E /* Solution3115.swift */; };
 		4B82BCAB2A1F5DDB00A4E716 /* Solution14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */; };
 		4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FC92AA02E36008F33BF /* Solution876.swift */; };
 		4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCC2AA0A37D008F33BF /* Solution141.swift */; };
@@ -138,6 +139,8 @@
 		4B6DC9AD2C323D9A008A9C1E /* 104. 二叉树的最大深度.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "104. 二叉树的最大深度.md"; sourceTree = "<group>"; };
 		4B6DC9AF2C323E0D008A9C1E /* Solution226.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution226.swift; sourceTree = "<group>"; };
 		4B6DC9B12C323E87008A9C1E /* 226. 翻转二叉树.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "226. 翻转二叉树.md"; sourceTree = "<group>"; };
+		4B6DC9B32C338EB8008A9C1E /* Solution3115.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3115.swift; sourceTree = "<group>"; };
+		4B6DC9B52C338F17008A9C1E /* 3115. 质数的最大距离.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3115. 质数的最大距离.md"; sourceTree = "<group>"; };
 		4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution14.swift; sourceTree = "<group>"; };
 		4BA19FC92AA02E36008F33BF /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
 		4BA19FCC2AA0A37D008F33BF /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
@@ -460,6 +463,15 @@
 			path = "226. 翻转二叉树";
 			sourceTree = "<group>";
 		};
+		4B6DC9B22C338EA8008A9C1E /* 3115. 质数的最大距离 */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DC9B52C338F17008A9C1E /* 3115. 质数的最大距离.md */,
+				4B6DC9B32C338EB8008A9C1E /* Solution3115.swift */,
+			);
+			path = "3115. 质数的最大距离";
+			sourceTree = "<group>";
+		};
 		4B82BCA92A1F5DA400A4E716 /* 14.最长公共前缀 */ = {
 			isa = PBXGroup;
 			children = (
@@ -610,6 +622,7 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B6DC9B22C338EA8008A9C1E /* 3115. 质数的最大距离 */,
 				4B6DC9AE2C323DFC008A9C1E /* 226. 翻转二叉树 */,
 				4B6DC9AA2C3238D6008A9C1E /* 104. 二叉树的最大深度 */,
 				4B6DC9A62C2D018B008A9C1E /* 2734. 执行子串操作后的字典序最小字符串 */,
@@ -831,6 +844,7 @@
 				5B36B20C28C1911700E14D15 /* Solution1.swift in Sources */,
 				4BCADB382BE8AED000BDB948 /* Solution.swift in Sources */,
 				5BE7DF972929BEA300FFFB3B /* Solution9.swift in Sources */,
+				4B6DC9B42C338EB8008A9C1E /* Solution3115.swift in Sources */,
 				4B6DC99C2C2A534B008A9C1E /* Solution2732.swift in Sources */,
 				4B6DC9682C17ED20008A9C1E /* Solution34.swift in Sources */,
 				4BCADB412BEB54ED00BDB948 /* Solution18.swift in Sources */,
