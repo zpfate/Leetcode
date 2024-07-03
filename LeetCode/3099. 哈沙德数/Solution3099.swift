@@ -17,12 +17,22 @@ extension Solution {
     
     func sumOfTheDigitsOfHarshadNumber(_ x: Int) -> Int {
       
-        let units = x % 10
-        let tens = x / 10 % 10
-        let hundreds = x / 100
+        var value = x
+        var sum = 0
 
-        let sum = tens + units + hundreds
-       
+        while value != 0 {
+            sum += value % 10
+            value = value / 10
+        }
+    
         return x % sum == 0 ? sum : -1
+        
+//        let units = x % 10
+//        let tens = x / 10 % 10
+//        let hundreds = x / 100
+//
+//        let sum = tens + units + hundreds
+//       
+//        return x % sum == 0 ? sum : -1
     }
 }

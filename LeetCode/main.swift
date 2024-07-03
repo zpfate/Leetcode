@@ -134,4 +134,5 @@ print("======\(solution.maximalSquare([["0","1"],["1","0"]]))")
 //print("111111====\(solution.smallestString("cbabc"))")
 
 //solution.maximumPrimeDifference([1,7])
-solution.sumOfTheDigitsOfHarshadNumber(100)
+
+print("3099:\(solution.sumOfTheDigitsOfHarshadNumber(1000))")
