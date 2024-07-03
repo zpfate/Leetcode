@@ -22,7 +22,7 @@ class BubbleSort {
                     list.swapAt(j, j-1)
                     swapped = true
                 }
-                print_array(list, j)
+                sort_print_array(list, j)
             }
             if !swapped {
                 break /// 如果没有发生交换结束循环
@@ -38,7 +38,7 @@ class BubbleSort {
                 if list[i] < list[j] {
                     list.swapAt(i, j)
                 }
-                print_array(list, j+1)
+                sort_print_array(list, j+1)
             }
         }
         return list

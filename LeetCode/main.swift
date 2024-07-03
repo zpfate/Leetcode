@@ -133,4 +133,5 @@ print("======\(solution.maximalSquare([["0","1"],["1","0"]]))")
 //print("2741. 特别的排列: \(solution.specialPerm([1,2,4,8,16,32,64,128,256,512,1024,2048,4096,8192]))")
 //print("111111====\(solution.smallestString("cbabc"))")
 
-solution.maximumPrimeDifference([1,7])
+//solution.maximumPrimeDifference([1,7])
+solution.sumOfTheDigitsOfHarshadNumber(100)

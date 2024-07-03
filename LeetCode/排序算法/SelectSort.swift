@@ -24,7 +24,7 @@ class SelectSort {
                 }
             }
             tempArr.swapAt(i, min!)
-            print_array(tempArr, i)
+            sort_print_array(tempArr, i)
         }
        return tempArr
     }
