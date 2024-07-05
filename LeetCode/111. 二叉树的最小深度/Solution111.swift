@@ -25,7 +25,6 @@ extension Solution {
     func minDepth(_ root: TreeNode?) -> Int {
         
         return dfsBinaryTreeDepth(root)
-
     }
     
     fileprivate func dfsBinaryTreeDepth(_ root: TreeNode?) -> Int {

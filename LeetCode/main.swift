@@ -61,7 +61,7 @@ solution.merge(&arr1, 3, arr2, 3)
 //solution.retrieveSum()
 
 
-print("======\(solution.maximalSquare([["0","1"],["1","0"]]))")
+//print("======\(solution.maximalSquare([["0","1"],["1","0"]]))")
 // 496. 下一个更大元素 I
 //print("496. 下一个更大元素 I:\(solution.nextGreaterElement([2, 4], [1, 2, 3, 4]))")
 
@@ -117,9 +117,6 @@ print("======\(solution.maximalSquare([["0","1"],["1","0"]]))")
 
 //var v876: ListNode? = ListNode(7, ListNode(2, ListNode(4, ListNode(3))))
 //var v875: ListNode? = ListNode(5, ListNode(6, ListNode(4)))
-
-
-
 
 
 //canPartition([1, 5, 10, 6])

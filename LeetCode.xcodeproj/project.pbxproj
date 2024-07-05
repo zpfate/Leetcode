@@ -42,8 +42,9 @@
 		4B6DC9B02C323E0D008A9C1E /* Solution226.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9AF2C323E0D008A9C1E /* Solution226.swift */; };
 		4B6DC9B42C338EB8008A9C1E /* Solution3115.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9B32C338EB8008A9C1E /* Solution3115.swift */; };
 		4B6DC9B82C33E045008A9C1E /* Solution101.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9B72C33E045008A9C1E /* Solution101.swift */; };
-		4B6DC9BC2C33EF95008A9C1E /* Solution111.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9BB2C33EF95008A9C1E /* Solution111.swift */; };
 		4B6DC9C02C34DB06008A9C1E /* Solution3099.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9BF2C34DB06008A9C1E /* Solution3099.swift */; };
+		4B6DC9C22C3690FB008A9C1E /* Solution111.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9BB2C33EF95008A9C1E /* Solution111.swift */; };
+		4B6DC9C52C377DB9008A9C1E /* Solution3033.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9C42C377DB9008A9C1E /* Solution3033.swift */; };
 		4B82BCAB2A1F5DDB00A4E716 /* Solution14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */; };
 		4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FC92AA02E36008F33BF /* Solution876.swift */; };
 		4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCC2AA0A37D008F33BF /* Solution141.swift */; };
@@ -150,6 +151,8 @@
 		4B6DC9BD2C33EFE1008A9C1E /* 111. 二叉树的最小深度.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "111. 二叉树的最小深度.md"; sourceTree = "<group>"; };
 		4B6DC9BF2C34DB06008A9C1E /* Solution3099.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3099.swift; sourceTree = "<group>"; };
 		4B6DC9C12C34E107008A9C1E /* 3099. 哈沙德数.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3099. 哈沙德数.md"; sourceTree = "<group>"; };
+		4B6DC9C42C377DB9008A9C1E /* Solution3033.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3033.swift; sourceTree = "<group>"; };
+		4B6DC9C62C377E36008A9C1E /* 3033. 修改矩阵.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3033. 修改矩阵.md"; sourceTree = "<group>"; };
 		4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution14.swift; sourceTree = "<group>"; };
 		4BA19FC92AA02E36008F33BF /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
 		4BA19FCC2AA0A37D008F33BF /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
@@ -508,6 +511,15 @@
 			path = "3099. 哈沙德数";
 			sourceTree = "<group>";
 		};
+		4B6DC9C32C377DA8008A9C1E /* 3033. 修改矩阵 */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DC9C62C377E36008A9C1E /* 3033. 修改矩阵.md */,
+				4B6DC9C42C377DB9008A9C1E /* Solution3033.swift */,
+			);
+			path = "3033. 修改矩阵";
+			sourceTree = "<group>";
+		};
 		4B82BCA92A1F5DA400A4E716 /* 14.最长公共前缀 */ = {
 			isa = PBXGroup;
 			children = (
@@ -658,6 +670,7 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B6DC9C32C377DA8008A9C1E /* 3033. 修改矩阵 */,
 				4B6DC9BE2C34DAD4008A9C1E /* 3099. 哈沙德数 */,
 				4B6DC9BA2C33EF85008A9C1E /* 111. 二叉树的最小深度 */,
 				4B6DC9B62C33E032008A9C1E /* 101. 对称二叉树 */,
@@ -887,7 +900,7 @@
 				4B6DC9B42C338EB8008A9C1E /* Solution3115.swift in Sources */,
 				4B6DC99C2C2A534B008A9C1E /* Solution2732.swift in Sources */,
 				4B6DC9682C17ED20008A9C1E /* Solution34.swift in Sources */,
-				4B6DC9BC2C33EF95008A9C1E /* Solution111.swift in Sources */,
+				4B6DC9C52C377DB9008A9C1E /* Solution3033.swift in Sources */,
 				4BCADB412BEB54ED00BDB948 /* Solution18.swift in Sources */,
 				4B13C7532BF5A2AC0032004B /* Solution509.swift in Sources */,
 				4BCADB502BF1A71200BDB948 /* Solution232.swift in Sources */,
@@ -906,6 +919,7 @@
 				4B6DC9992C29126B008A9C1E /* Solution503.swift in Sources */,
 				4B6DC9B02C323E0D008A9C1E /* Solution226.swift in Sources */,
 				4B0262912C084E4500AE2B3B /* Solution704.swift in Sources */,
+				4B6DC9C22C3690FB008A9C1E /* Solution111.swift in Sources */,
 				4B37D1912A8CBD63007E6D13 /* Solution74.swift in Sources */,
 				4B13C75C2BF5E1C30032004B /* Solution198.swift in Sources */,
 				4B02628E2C05AB3D00AE2B3B /* Solution84.swift in Sources */,
