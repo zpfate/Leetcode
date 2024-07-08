@@ -1,0 +1,47 @@
+//
+//  Solution724.swift
+//  LeetCode
+//
+//  Created by fate on 2024/7/8.
+//
+
+import Foundation
+
+/**
+ 724. 寻找数组的中心下标
+ https://leetcode.cn/problems/find-pivot-index/description/
+ 
+ 给你一个整数数组 nums ，请计算数组的 中心下标 。
+
+ 数组 中心下标 是数组的一个下标，其左侧所有元素相加的和等于右侧所有元素相加的和。
+
+ 如果中心下标位于数组最左端，那么左侧数之和视为 0 ，因为在下标的左侧不存在元素。这一点对于中心下标位于数组最右端同样适用。
+
+ 如果数组有多个中心下标，应该返回 最靠近左边 的那一个。如果数组不存在中心下标，返回 -1 。
+ */
+
+extension Solution {
+    
+    func pivotIndex(_ nums: [Int]) -> Int {
+
+        if nums.isEmpty {
+            return -1
+        }
+
+        let count = nums.count
+        var sum = [Int](repeating: 0, count: count + 1)
+
+        for i in 0..<count {
+            sum[i + 1] = sum[i] + nums[i]
+        }
+
+        for i in 0..<count {
+            if sum[i + 1] - nums[i] == sum[count] - sum[i + 1] {
+                return i
+            }
+        }
+
+        return -1
+    }
+
+}

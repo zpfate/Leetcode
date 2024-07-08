@@ -45,6 +45,7 @@
 		4B6DC9C02C34DB06008A9C1E /* Solution3099.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9BF2C34DB06008A9C1E /* Solution3099.swift */; };
 		4B6DC9C22C3690FB008A9C1E /* Solution111.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9BB2C33EF95008A9C1E /* Solution111.swift */; };
 		4B6DC9C52C377DB9008A9C1E /* Solution3033.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9C42C377DB9008A9C1E /* Solution3033.swift */; };
+		4B6DC9CE2C3B885D008A9C1E /* Solution724.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9CD2C3B885C008A9C1E /* Solution724.swift */; };
 		4B82BCAB2A1F5DDB00A4E716 /* Solution14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */; };
 		4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FC92AA02E36008F33BF /* Solution876.swift */; };
 		4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCC2AA0A37D008F33BF /* Solution141.swift */; };
@@ -153,6 +154,8 @@
 		4B6DC9C12C34E107008A9C1E /* 3099. 哈沙德数.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3099. 哈沙德数.md"; sourceTree = "<group>"; };
 		4B6DC9C42C377DB9008A9C1E /* Solution3033.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3033.swift; sourceTree = "<group>"; };
 		4B6DC9C62C377E36008A9C1E /* 3033. 修改矩阵.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3033. 修改矩阵.md"; sourceTree = "<group>"; };
+		4B6DC9CC2C3B885C008A9C1E /* 724. 寻找数组的中心下标.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "724. 寻找数组的中心下标.md"; sourceTree = "<group>"; };
+		4B6DC9CD2C3B885C008A9C1E /* Solution724.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution724.swift; sourceTree = "<group>"; };
 		4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution14.swift; sourceTree = "<group>"; };
 		4BA19FC92AA02E36008F33BF /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
 		4BA19FCC2AA0A37D008F33BF /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
@@ -520,6 +523,15 @@
 			path = "3033. 修改矩阵";
 			sourceTree = "<group>";
 		};
+		4B6DC9CB2C3B885C008A9C1E /* 724. 寻找数组的中心下标 */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DC9CC2C3B885C008A9C1E /* 724. 寻找数组的中心下标.md */,
+				4B6DC9CD2C3B885C008A9C1E /* Solution724.swift */,
+			);
+			path = "724. 寻找数组的中心下标";
+			sourceTree = "<group>";
+		};
 		4B82BCA92A1F5DA400A4E716 /* 14.最长公共前缀 */ = {
 			isa = PBXGroup;
 			children = (
@@ -670,6 +682,7 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B6DC9CB2C3B885C008A9C1E /* 724. 寻找数组的中心下标 */,
 				4B6DC9C32C377DA8008A9C1E /* 3033. 修改矩阵 */,
 				4B6DC9BE2C34DAD4008A9C1E /* 3099. 哈沙德数 */,
 				4B6DC9BA2C33EF85008A9C1E /* 111. 二叉树的最小深度 */,
@@ -912,6 +925,7 @@
 				5B56928A292784F000DB792C /* Common.swift in Sources */,
 				4BCD942D2AB3139B00FBA5B3 /* Solution61.swift in Sources */,
 				4B13C7562BF5A8590032004B /* Solution1137.swift in Sources */,
+				4B6DC9CE2C3B885D008A9C1E /* Solution724.swift in Sources */,
 				5BE7DF9A292A567C00FFFB3B /* Solution13.swift in Sources */,
 				4BA19FD02AA0AA39008F33BF /* Solution19.swift in Sources */,
 				4B82BCAB2A1F5DDB00A4E716 /* Solution14.swift in Sources */,
