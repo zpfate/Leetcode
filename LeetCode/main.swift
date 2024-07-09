@@ -19,6 +19,10 @@ let solution = Solution()
 //4.寻找两个正序数组的中位数
 //print("4.寻找两个正序数组的中位数:\(solution.findMedianSortedArrays([1, 3], [2, 4]))")
 
+// 5. 最长回文子串
+print("5. 最长回文子串:\(solution.longestPalindrome("ccd"))")
+
+
 //14.最长公共前缀
 //print("14.最长公共前缀:\(solution.longestCommonPrefix(["dog","racecar","car"]))")
 
@@ -132,4 +136,6 @@ solution.merge(&arr1, 3, arr2, 3)
 
 //solution.maximumPrimeDifference([1,7])
 
-print("3099:\(solution.sumOfTheDigitsOfHarshadNumber(1000))")
+
+
+//print("3099:\(solution.sumOfTheDigitsOfHarshadNumber(1000))")
