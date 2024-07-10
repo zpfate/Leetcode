@@ -139,3 +139,5 @@ solution.merge(&arr1, 3, arr2, 3)
 
 
 //print("3099:\(solution.sumOfTheDigitsOfHarshadNumber(1000))")
+
+solution.incremovableSubarrayCount([1, 2, 3, 4])
