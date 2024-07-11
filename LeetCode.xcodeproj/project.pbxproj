@@ -47,6 +47,7 @@
 		4B6DC9C52C377DB9008A9C1E /* Solution3033.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9C42C377DB9008A9C1E /* Solution3033.swift */; };
 		4B6DC9CE2C3B885D008A9C1E /* Solution724.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9CD2C3B885C008A9C1E /* Solution724.swift */; };
 		4B6DC9D62C3E162E008A9C1E /* Solution2970.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9D52C3E162E008A9C1E /* Solution2970.swift */; };
+		4B6DC9D92C3F6733008A9C1E /* Solution2972.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9D82C3F6733008A9C1E /* Solution2972.swift */; };
 		4B82BCAB2A1F5DDB00A4E716 /* Solution14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */; };
 		4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FC92AA02E36008F33BF /* Solution876.swift */; };
 		4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCC2AA0A37D008F33BF /* Solution141.swift */; };
@@ -158,6 +159,9 @@
 		4B6DC9CC2C3B885C008A9C1E /* 724. 寻找数组的中心下标.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "724. 寻找数组的中心下标.md"; sourceTree = "<group>"; };
 		4B6DC9CD2C3B885C008A9C1E /* Solution724.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solution724.swift; sourceTree = "<group>"; };
 		4B6DC9D52C3E162E008A9C1E /* Solution2970.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2970.swift; sourceTree = "<group>"; };
+		4B6DC9D82C3F6733008A9C1E /* Solution2972.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2972.swift; sourceTree = "<group>"; };
+		4B6DC9DA2C3F67B1008A9C1E /* 2972. 统计移除递增子数组的数目 II.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "2972. 统计移除递增子数组的数目 II.md"; sourceTree = "<group>"; };
+		4B6DC9DB2C3F6BE4008A9C1E /* 2970. 统计移除递增子数组的数目 I.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "2970. 统计移除递增子数组的数目 I.md"; sourceTree = "<group>"; };
 		4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution14.swift; sourceTree = "<group>"; };
 		4BA19FC92AA02E36008F33BF /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
 		4BA19FCC2AA0A37D008F33BF /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
@@ -537,9 +541,19 @@
 		4B6DC9D42C3E161A008A9C1E /* 2970. 统计移除递增子数组的数目 I */ = {
 			isa = PBXGroup;
 			children = (
+				4B6DC9DB2C3F6BE4008A9C1E /* 2970. 统计移除递增子数组的数目 I.md */,
 				4B6DC9D52C3E162E008A9C1E /* Solution2970.swift */,
 			);
 			path = "2970. 统计移除递增子数组的数目 I";
+			sourceTree = "<group>";
+		};
+		4B6DC9D72C3F671D008A9C1E /* 2972. 统计移除递增子数组的数目 II */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DC9DA2C3F67B1008A9C1E /* 2972. 统计移除递增子数组的数目 II.md */,
+				4B6DC9D82C3F6733008A9C1E /* Solution2972.swift */,
+			);
+			path = "2972. 统计移除递增子数组的数目 II";
 			sourceTree = "<group>";
 		};
 		4B82BCA92A1F5DA400A4E716 /* 14.最长公共前缀 */ = {
@@ -692,6 +706,7 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B6DC9D72C3F671D008A9C1E /* 2972. 统计移除递增子数组的数目 II */,
 				4B6DC9D42C3E161A008A9C1E /* 2970. 统计移除递增子数组的数目 I */,
 				4B6DC9CB2C3B885C008A9C1E /* 724. 寻找数组的中心下标 */,
 				4B6DC9C32C377DA8008A9C1E /* 3033. 修改矩阵 */,
@@ -940,6 +955,7 @@
 				4B6DC9CE2C3B885D008A9C1E /* Solution724.swift in Sources */,
 				5BE7DF9A292A567C00FFFB3B /* Solution13.swift in Sources */,
 				4BA19FD02AA0AA39008F33BF /* Solution19.swift in Sources */,
+				4B6DC9D92C3F6733008A9C1E /* Solution2972.swift in Sources */,
 				4B82BCAB2A1F5DDB00A4E716 /* Solution14.swift in Sources */,
 				4BD1827E2A690F0700333B8A /* Solution88.swift in Sources */,
 				4B6DC9992C29126B008A9C1E /* Solution503.swift in Sources */,
