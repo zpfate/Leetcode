@@ -136,8 +136,9 @@ solution.merge(&arr1, 3, arr2, 3)
 
 //solution.maximumPrimeDifference([1,7])
 
+//print("lllllll:\(solution.incremovableSubarrayCountII([1, 2, 3, 4]))")
 
+print("2974. 最小数字游戏:\(solution.numberGame([5, 4, 2, 3]))")
 
 //print("3099:\(solution.sumOfTheDigitsOfHarshadNumber(1000))")
 
-print("lllllll:\(solution.incremovableSubarrayCountII([1, 2, 3, 4]))")

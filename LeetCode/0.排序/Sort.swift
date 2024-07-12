@@ -82,7 +82,7 @@ class Sort {
     
     /// 快速排序 分治法
     /// 快速排序
-    func quick(_ nums: inout [Int], _ low: Int, _ high: Int) -> Void {
+    static func quick(_ nums: inout [Int], _ low: Int, _ high: Int) -> Void {
         
        if (low < high) {
            let pivot = partition(&nums, low, high)
@@ -91,7 +91,7 @@ class Sort {
        }
     }
 
-    func partition(_ nums: inout [Int], _ low: Int, _ high: Int) -> Int {
+    static func partition(_ nums: inout [Int], _ low: Int, _ high: Int) -> Int {
         
         let pivot = nums[high]
         var i = low - 1
