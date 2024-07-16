@@ -49,6 +49,8 @@
 		4B6DC9D62C3E162E008A9C1E /* Solution2970.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9D52C3E162E008A9C1E /* Solution2970.swift */; };
 		4B6DC9D92C3F6733008A9C1E /* Solution2972.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9D82C3F6733008A9C1E /* Solution2972.swift */; };
 		4B6DC9DE2C40BF5A008A9C1E /* Solution2974.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9DD2C40BF5A008A9C1E /* Solution2974.swift */; };
+		4B6DC9E22C44F561008A9C1E /* Solution721.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9E12C44F561008A9C1E /* Solution721.swift */; };
+		4B6DC9E62C460015008A9C1E /* Solution2956.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9E52C460015008A9C1E /* Solution2956.swift */; };
 		4B82BCAB2A1F5DDB00A4E716 /* Solution14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */; };
 		4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FC92AA02E36008F33BF /* Solution876.swift */; };
 		4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCC2AA0A37D008F33BF /* Solution141.swift */; };
@@ -165,6 +167,10 @@
 		4B6DC9DB2C3F6BE4008A9C1E /* 2970. 统计移除递增子数组的数目 I.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "2970. 统计移除递增子数组的数目 I.md"; sourceTree = "<group>"; };
 		4B6DC9DD2C40BF5A008A9C1E /* Solution2974.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2974.swift; sourceTree = "<group>"; };
 		4B6DC9DF2C40BFA3008A9C1E /* 2974. 最小数字游戏.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "2974. 最小数字游戏.md"; sourceTree = "<group>"; };
+		4B6DC9E12C44F561008A9C1E /* Solution721.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution721.swift; sourceTree = "<group>"; };
+		4B6DC9E32C44F5D2008A9C1E /* 721. 账户合并.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "721. 账户合并.md"; sourceTree = "<group>"; };
+		4B6DC9E52C460015008A9C1E /* Solution2956.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2956.swift; sourceTree = "<group>"; };
+		4B6DC9E72C460364008A9C1E /* 2956. 找到两个数组中的公共元素.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "2956. 找到两个数组中的公共元素.md"; sourceTree = "<group>"; };
 		4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution14.swift; sourceTree = "<group>"; };
 		4BA19FC92AA02E36008F33BF /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
 		4BA19FCC2AA0A37D008F33BF /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
@@ -568,6 +574,24 @@
 			path = "2974. 最小数字游戏";
 			sourceTree = "<group>";
 		};
+		4B6DC9E02C44F543008A9C1E /* 721. 账户合并 */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DC9E32C44F5D2008A9C1E /* 721. 账户合并.md */,
+				4B6DC9E12C44F561008A9C1E /* Solution721.swift */,
+			);
+			path = "721. 账户合并";
+			sourceTree = "<group>";
+		};
+		4B6DC9E42C45FFFD008A9C1E /* 2956. 找到两个数组中的公共元素 */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DC9E72C460364008A9C1E /* 2956. 找到两个数组中的公共元素.md */,
+				4B6DC9E52C460015008A9C1E /* Solution2956.swift */,
+			);
+			path = "2956. 找到两个数组中的公共元素";
+			sourceTree = "<group>";
+		};
 		4B82BCA92A1F5DA400A4E716 /* 14.最长公共前缀 */ = {
 			isa = PBXGroup;
 			children = (
@@ -718,6 +742,8 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B6DC9E42C45FFFD008A9C1E /* 2956. 找到两个数组中的公共元素 */,
+				4B6DC9E02C44F543008A9C1E /* 721. 账户合并 */,
 				4B6DC9DC2C40BF43008A9C1E /* 2974. 最小数字游戏 */,
 				4BCADB3B2BE8B6B000BDB948 /* 0.排序 */,
 				5B36B20A28C190D400E14D15 /* 1.两数之和 */,
@@ -932,11 +958,13 @@
 			files = (
 				4B6DC9882C226FF6008A9C1E /* Solution416.swift in Sources */,
 				4B6DC9B82C33E045008A9C1E /* Solution101.swift in Sources */,
+				4B6DC9E62C460015008A9C1E /* Solution2956.swift in Sources */,
 				4B6DC9D62C3E162E008A9C1E /* Solution2970.swift in Sources */,
 				4BCADB4A2BEF58EA00BDB948 /* Solution1588.swift in Sources */,
 				5B5692882927847900DB792C /* InsertSort.swift in Sources */,
 				4B6DC9A02C2A92E3008A9C1E /* Solution200.swift in Sources */,
 				4BCADB3D2BE8B6CB00BDB948 /* Sort.swift in Sources */,
+				4B6DC9E22C44F561008A9C1E /* Solution721.swift in Sources */,
 				4BCD93F12AA9D84200FBA5B3 /* Solution206.swift in Sources */,
 				4B6DC9A82C2D01A1008A9C1E /* Solution2734.swift in Sources */,
 				4B0262942C08517800AE2B3B /* Solution852.swift in Sources */,

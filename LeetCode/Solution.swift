@@ -29,3 +29,34 @@ public class TreeNode {
         self.right = right
     }
 }
+
+
+/**
+ 并查集
+ */
+public class UnionFind {
+    
+    private var parents: [Int]
+    
+    init(_ size: Int) {
+        self.parents = Array<Int>(0..<size)
+    }
+    
+    func union(x: Int, y: Int) -> Void {
+        
+        let rootX = find(node: x)
+        let rootY = find(node: y)
+        parents[rootX] = rootY
+        
+    }
+    
+    func find(node: Int) -> Int {
+        
+        if node != parents[node] {
+            parents[node] = find(node: parents[node])
+        }
+        
+        return parents[node]
+    }
+    
+}
