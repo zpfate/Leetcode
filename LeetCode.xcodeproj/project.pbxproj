@@ -51,6 +51,7 @@
 		4B6DC9DE2C40BF5A008A9C1E /* Solution2974.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9DD2C40BF5A008A9C1E /* Solution2974.swift */; };
 		4B6DC9E22C44F561008A9C1E /* Solution721.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9E12C44F561008A9C1E /* Solution721.swift */; };
 		4B6DC9E62C460015008A9C1E /* Solution2956.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9E52C460015008A9C1E /* Solution2956.swift */; };
+		4B6DC9EA2C475221008A9C1E /* Solution6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9E92C475221008A9C1E /* Solution6.swift */; };
 		4B82BCAB2A1F5DDB00A4E716 /* Solution14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */; };
 		4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FC92AA02E36008F33BF /* Solution876.swift */; };
 		4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCC2AA0A37D008F33BF /* Solution141.swift */; };
@@ -171,6 +172,8 @@
 		4B6DC9E32C44F5D2008A9C1E /* 721. 账户合并.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "721. 账户合并.md"; sourceTree = "<group>"; };
 		4B6DC9E52C460015008A9C1E /* Solution2956.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2956.swift; sourceTree = "<group>"; };
 		4B6DC9E72C460364008A9C1E /* 2956. 找到两个数组中的公共元素.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "2956. 找到两个数组中的公共元素.md"; sourceTree = "<group>"; };
+		4B6DC9E92C475221008A9C1E /* Solution6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution6.swift; sourceTree = "<group>"; };
+		4B6DC9EB2C475290008A9C1E /* 6. Z 字形变换.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "6. Z 字形变换.md"; sourceTree = "<group>"; };
 		4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution14.swift; sourceTree = "<group>"; };
 		4BA19FC92AA02E36008F33BF /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
 		4BA19FCC2AA0A37D008F33BF /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
@@ -592,6 +595,15 @@
 			path = "2956. 找到两个数组中的公共元素";
 			sourceTree = "<group>";
 		};
+		4B6DC9E82C475209008A9C1E /* 6. Z 字形变换 */ = {
+			isa = PBXGroup;
+			children = (
+				4B6DC9EB2C475290008A9C1E /* 6. Z 字形变换.md */,
+				4B6DC9E92C475221008A9C1E /* Solution6.swift */,
+			);
+			path = "6. Z 字形变换";
+			sourceTree = "<group>";
+		};
 		4B82BCA92A1F5DA400A4E716 /* 14.最长公共前缀 */ = {
 			isa = PBXGroup;
 			children = (
@@ -742,6 +754,7 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B6DC9E82C475209008A9C1E /* 6. Z 字形变换 */,
 				4B6DC9E42C45FFFD008A9C1E /* 2956. 找到两个数组中的公共元素 */,
 				4B6DC9E02C44F543008A9C1E /* 721. 账户合并 */,
 				4B6DC9DC2C40BF43008A9C1E /* 2974. 最小数字游戏 */,
@@ -1021,6 +1034,7 @@
 				4B6DC9902C2824F0008A9C1E /* Solution520.swift in Sources */,
 				4B6DC9792C1C1626008A9C1E /* Solution174.swift in Sources */,
 				5B5692842927739400DB792C /* BubbleSort.swift in Sources */,
+				4B6DC9EA2C475221008A9C1E /* Solution6.swift in Sources */,
 				4B6DC9702C1977E3008A9C1E /* Solution62.swift in Sources */,
 				4BCADB4D2BF1A6B900BDB948 /* Solution42.swift in Sources */,
 				4B6DC9AC2C3238E9008A9C1E /* Solution104.swift in Sources */,

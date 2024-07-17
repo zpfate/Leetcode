@@ -17,9 +17,12 @@ import Foundation
 extension Solution {
     
     func longestPalindrome(_ s: String) -> String {
+        
+        /// 扩散中心法
         if s.count < 2 {
             return s
         }
+        
         var start = 0
         var end = 0
         var array = s.map({ String.init($0)})
@@ -32,18 +35,21 @@ extension Solution {
                 end = i + len / 2
             }
         }
+        
         array.removeFirst(start)
         let sub = array.prefix(end - start + 1).joined()
         return sub
     }
     
     func expandCenter(array: [String], left: Int, right: Int) -> Int {
+        
         var l = left
         var r = right
         while l >= 0 && r < array.count && array[l] == array[r] {
             l -= 1
             r += 1
         }
+        
         return r - l - 1
     }
 
