@@ -138,8 +138,8 @@ solution.merge(&arr1, 3, arr2, 3)
 
 //print("lllllll:\(solution.incremovableSubarrayCountII([1, 2, 3, 4]))")
 
-print("2974. 最小数字游戏:\(solution.numberGame([5, 4, 2, 3]))")
-print("2974. 最小数字游戏:\(solution.convert("leetcode", 3))")
+//print("2974. 最小数字游戏:\(solution.numberGame([5, 4, 2, 3]))")
+print("3096. 最小数字游戏:\(solution.minimumLevels([0, 0, 0]))")
 
 //print("3099:\(solution.sumOfTheDigitsOfHarshadNumber(1000))")
 
