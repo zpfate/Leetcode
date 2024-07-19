@@ -54,6 +54,7 @@
 		4B6DC9EA2C475221008A9C1E /* Solution6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9E92C475221008A9C1E /* Solution6.swift */; };
 		4B82BCAB2A1F5DDB00A4E716 /* Solution14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */; };
 		4B8DF7A32C49F63A000D20D2 /* Solution3096.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7A22C49F63A000D20D2 /* Solution3096.swift */; };
+		4B8DF7A72C4A6548000D20D2 /* Solution144.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7A62C4A6548000D20D2 /* Solution144.swift */; };
 		4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FC92AA02E36008F33BF /* Solution876.swift */; };
 		4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCC2AA0A37D008F33BF /* Solution141.swift */; };
 		4BA19FD02AA0AA39008F33BF /* Solution19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCF2AA0AA39008F33BF /* Solution19.swift */; };
@@ -178,6 +179,8 @@
 		4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution14.swift; sourceTree = "<group>"; };
 		4B8DF7A22C49F63A000D20D2 /* Solution3096.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3096.swift; sourceTree = "<group>"; };
 		4B8DF7A42C4A3DA9000D20D2 /* 3096. 得到更多分数的最少关卡数目.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3096. 得到更多分数的最少关卡数目.md"; sourceTree = "<group>"; };
+		4B8DF7A62C4A6548000D20D2 /* Solution144.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution144.swift; sourceTree = "<group>"; };
+		4B8DF7A82C4A6938000D20D2 /* 144. 二叉树的前序遍历.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "144. 二叉树的前序遍历.md"; sourceTree = "<group>"; };
 		4BA19FC92AA02E36008F33BF /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
 		4BA19FCC2AA0A37D008F33BF /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
 		4BA19FCF2AA0AA39008F33BF /* Solution19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution19.swift; sourceTree = "<group>"; };
@@ -625,6 +628,15 @@
 			path = "3096. 得到更多分数的最少关卡数目";
 			sourceTree = "<group>";
 		};
+		4B8DF7A52C4A6536000D20D2 /* 144. 二叉树的前序遍历 */ = {
+			isa = PBXGroup;
+			children = (
+				4B8DF7A82C4A6938000D20D2 /* 144. 二叉树的前序遍历.md */,
+				4B8DF7A62C4A6548000D20D2 /* Solution144.swift */,
+			);
+			path = "144. 二叉树的前序遍历";
+			sourceTree = "<group>";
+		};
 		4BA19FC82AA02E0D008F33BF /* 876.链表中的中间结点 */ = {
 			isa = PBXGroup;
 			children = (
@@ -766,6 +778,7 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B8DF7A52C4A6536000D20D2 /* 144. 二叉树的前序遍历 */,
 				4BCADB3B2BE8B6B000BDB948 /* 0.排序 */,
 				5B36B20A28C190D400E14D15 /* 1.两数之和 */,
 				5B36B20D28C1915300E14D15 /* 2.两数相加 */,
@@ -1014,6 +1027,7 @@
 				4B13C7532BF5A2AC0032004B /* Solution509.swift in Sources */,
 				4BCADB502BF1A71200BDB948 /* Solution232.swift in Sources */,
 				4B68FE952A9758C0009FA727 /* Solution69.swift in Sources */,
+				4B8DF7A72C4A6548000D20D2 /* Solution144.swift in Sources */,
 				4B6DC9C02C34DB06008A9C1E /* Solution3099.swift in Sources */,
 				5B36B20428C1902C00E14D15 /* main.swift in Sources */,
 				4BCADB472BEDFBC300BDB948 /* Solution303.swift in Sources */,

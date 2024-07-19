@@ -37,14 +37,13 @@ extension Solution {
             score += (possible[i] == 0 ? -1 : 1)
         }
         
-        var sum = 0.0
+        var sum = 0
         for i in 0..<len {
             sum += (possible[i] == 0 ? -1 : 1)
-            if sum > Double(score) / 2.0 && i != len - 1 {
+            if sum * 2 > score && i < len {
                 return i + 1
             }
         }
-        
         return -1
     }
     
