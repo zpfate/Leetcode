@@ -55,6 +55,8 @@
 		4B82BCAB2A1F5DDB00A4E716 /* Solution14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */; };
 		4B8DF7A32C49F63A000D20D2 /* Solution3096.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7A22C49F63A000D20D2 /* Solution3096.swift */; };
 		4B8DF7A72C4A6548000D20D2 /* Solution144.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7A62C4A6548000D20D2 /* Solution144.swift */; };
+		4B8DF7AB2C4DE29D000D20D2 /* Solution94.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7AA2C4DE29D000D20D2 /* Solution94.swift */; };
+		4B8DF7AE2C4DE4EB000D20D2 /* Solution145.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7AD2C4DE4EB000D20D2 /* Solution145.swift */; };
 		4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FC92AA02E36008F33BF /* Solution876.swift */; };
 		4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCC2AA0A37D008F33BF /* Solution141.swift */; };
 		4BA19FD02AA0AA39008F33BF /* Solution19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCF2AA0AA39008F33BF /* Solution19.swift */; };
@@ -181,6 +183,10 @@
 		4B8DF7A42C4A3DA9000D20D2 /* 3096. 得到更多分数的最少关卡数目.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3096. 得到更多分数的最少关卡数目.md"; sourceTree = "<group>"; };
 		4B8DF7A62C4A6548000D20D2 /* Solution144.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution144.swift; sourceTree = "<group>"; };
 		4B8DF7A82C4A6938000D20D2 /* 144. 二叉树的前序遍历.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "144. 二叉树的前序遍历.md"; sourceTree = "<group>"; };
+		4B8DF7AA2C4DE29D000D20D2 /* Solution94.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution94.swift; sourceTree = "<group>"; };
+		4B8DF7AD2C4DE4EB000D20D2 /* Solution145.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution145.swift; sourceTree = "<group>"; };
+		4B8DF7AF2C4DE7AE000D20D2 /* 145. 二叉树的后序遍历.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "145. 二叉树的后序遍历.md"; sourceTree = "<group>"; };
+		4B8DF7B02C4DE7E6000D20D2 /* 94. 二叉树的中序遍历.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "94. 二叉树的中序遍历.md"; sourceTree = "<group>"; };
 		4BA19FC92AA02E36008F33BF /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
 		4BA19FCC2AA0A37D008F33BF /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
 		4BA19FCF2AA0AA39008F33BF /* Solution19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution19.swift; sourceTree = "<group>"; };
@@ -637,6 +643,24 @@
 			path = "144. 二叉树的前序遍历";
 			sourceTree = "<group>";
 		};
+		4B8DF7A92C4DE287000D20D2 /* 94. 二叉树的中序遍历 */ = {
+			isa = PBXGroup;
+			children = (
+				4B8DF7B02C4DE7E6000D20D2 /* 94. 二叉树的中序遍历.md */,
+				4B8DF7AA2C4DE29D000D20D2 /* Solution94.swift */,
+			);
+			path = "94. 二叉树的中序遍历";
+			sourceTree = "<group>";
+		};
+		4B8DF7AC2C4DE4D8000D20D2 /* 145. 二叉树的后序遍历 */ = {
+			isa = PBXGroup;
+			children = (
+				4B8DF7AF2C4DE7AE000D20D2 /* 145. 二叉树的后序遍历.md */,
+				4B8DF7AD2C4DE4EB000D20D2 /* Solution145.swift */,
+			);
+			path = "145. 二叉树的后序遍历";
+			sourceTree = "<group>";
+		};
 		4BA19FC82AA02E0D008F33BF /* 876.链表中的中间结点 */ = {
 			isa = PBXGroup;
 			children = (
@@ -778,6 +802,8 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B8DF7AC2C4DE4D8000D20D2 /* 145. 二叉树的后序遍历 */,
+				4B8DF7A92C4DE287000D20D2 /* 94. 二叉树的中序遍历 */,
 				4B8DF7A52C4A6536000D20D2 /* 144. 二叉树的前序遍历 */,
 				4BCADB3B2BE8B6B000BDB948 /* 0.排序 */,
 				5B36B20A28C190D400E14D15 /* 1.两数之和 */,
@@ -998,6 +1024,7 @@
 				4B6DC9882C226FF6008A9C1E /* Solution416.swift in Sources */,
 				4B6DC9B82C33E045008A9C1E /* Solution101.swift in Sources */,
 				4B6DC9E62C460015008A9C1E /* Solution2956.swift in Sources */,
+				4B8DF7AE2C4DE4EB000D20D2 /* Solution145.swift in Sources */,
 				4B6DC9D62C3E162E008A9C1E /* Solution2970.swift in Sources */,
 				4BCADB4A2BEF58EA00BDB948 /* Solution1588.swift in Sources */,
 				5B5692882927847900DB792C /* InsertSort.swift in Sources */,
@@ -1044,6 +1071,7 @@
 				4B6DC9992C29126B008A9C1E /* Solution503.swift in Sources */,
 				4B6DC9B02C323E0D008A9C1E /* Solution226.swift in Sources */,
 				4B0262912C084E4500AE2B3B /* Solution704.swift in Sources */,
+				4B8DF7AB2C4DE29D000D20D2 /* Solution94.swift in Sources */,
 				4B6DC9C22C3690FB008A9C1E /* Solution111.swift in Sources */,
 				4B37D1912A8CBD63007E6D13 /* Solution74.swift in Sources */,
 				4B13C75C2BF5E1C30032004B /* Solution198.swift in Sources */,

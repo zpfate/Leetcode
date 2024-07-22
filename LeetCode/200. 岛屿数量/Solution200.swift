@@ -20,13 +20,10 @@ import Foundation
 
 extension Solution {
     
-    
     func numIslands(_ grid: [[Character]]) -> Int {
         
         return dfsInMatrix(grid)
-        
     }
-    
     
     func dfsInMatrix(_ matrix: [[Character]]) -> Int {
         
@@ -78,7 +75,6 @@ extension Solution {
         }
     }
     
-
     func checkRange(matrix: [[Character]], x: Int, y: Int) -> Bool {
         return x >= 0 && x < matrix.count && y >= 0 && y < matrix[0].count
     }
