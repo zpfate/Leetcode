@@ -24,19 +24,23 @@ extension Solution {
     
     func minDepth(_ root: TreeNode?) -> Int {
         
-        return dfsBinaryTreeDepth(root)
-    }
-    
-    fileprivate func dfsBinaryTreeDepth(_ root: TreeNode?) -> Int {
-        
-        if root?.left == nil && root?.right == nil {
+        if root == nil {
             return 0
         }
         
-        let leftDepth = dfsBinaryTreeDepth(root?.left)
-        let rightDepth = dfsBinaryTreeDepth(root?.right)
+        if root?.left == nil && root?.right == nil {
+            return 1
+        }
         
-        return 1 + min(leftDepth, rightDepth)
+        var result = Int.max
+        
+        if root?.left != nil {
+            result = min(result, minDepth(root?.left))
+        }
+        if root?.right != nil {
+            result = min(result, minDepth(root?.right))
+        }
+        return result + 1
         
     }
 }

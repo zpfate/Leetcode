@@ -57,6 +57,10 @@
 		4B8DF7A72C4A6548000D20D2 /* Solution144.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7A62C4A6548000D20D2 /* Solution144.swift */; };
 		4B8DF7AB2C4DE29D000D20D2 /* Solution94.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7AA2C4DE29D000D20D2 /* Solution94.swift */; };
 		4B8DF7AE2C4DE4EB000D20D2 /* Solution145.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7AD2C4DE4EB000D20D2 /* Solution145.swift */; };
+		4B8DF7B22C4E2E52000D20D2 /* DepthFirstSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7B12C4E2E52000D20D2 /* DepthFirstSearch.swift */; };
+		4B8DF7B52C4E3EE9000D20D2 /* Solution2101.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7B42C4E3EE9000D20D2 /* Solution2101.swift */; };
+		4B8DF7B72C4F4CCB000D20D2 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7B62C4F4CCB000D20D2 /* Queue.swift */; };
+		4B8DF7BA2C4F519B000D20D2 /* Solution102.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7B92C4F519B000D20D2 /* Solution102.swift */; };
 		4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FC92AA02E36008F33BF /* Solution876.swift */; };
 		4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCC2AA0A37D008F33BF /* Solution141.swift */; };
 		4BA19FD02AA0AA39008F33BF /* Solution19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCF2AA0AA39008F33BF /* Solution19.swift */; };
@@ -79,7 +83,6 @@
 		5B5692782927293200DB792C /* Solution3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5692772927293200DB792C /* Solution3.swift */; };
 		5B56927B292736E500DB792C /* Solution4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B56927A292736E500DB792C /* Solution4.swift */; };
 		5B56927E292751E300DB792C /* Solution5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B56927D292751E300DB792C /* Solution5.swift */; };
-		5B56928129275A0300DB792C /* StringExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B56928029275A0300DB792C /* StringExample.swift */; };
 		5B5692842927739400DB792C /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5692832927739400DB792C /* BubbleSort.swift */; };
 		5B5692862927835E00DB792C /* ShellSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5692852927835E00DB792C /* ShellSort.swift */; };
 		5B5692882927847900DB792C /* InsertSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5692872927847900DB792C /* InsertSort.swift */; };
@@ -187,6 +190,11 @@
 		4B8DF7AD2C4DE4EB000D20D2 /* Solution145.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution145.swift; sourceTree = "<group>"; };
 		4B8DF7AF2C4DE7AE000D20D2 /* 145. 二叉树的后序遍历.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "145. 二叉树的后序遍历.md"; sourceTree = "<group>"; };
 		4B8DF7B02C4DE7E6000D20D2 /* 94. 二叉树的中序遍历.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "94. 二叉树的中序遍历.md"; sourceTree = "<group>"; };
+		4B8DF7B12C4E2E52000D20D2 /* DepthFirstSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthFirstSearch.swift; sourceTree = "<group>"; };
+		4B8DF7B42C4E3EE9000D20D2 /* Solution2101.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2101.swift; sourceTree = "<group>"; };
+		4B8DF7B62C4F4CCB000D20D2 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		4B8DF7B92C4F519B000D20D2 /* Solution102.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution102.swift; sourceTree = "<group>"; };
+		4B8DF7BB2C4F51DC000D20D2 /* 102. 二叉树的层序遍历.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "102. 二叉树的层序遍历.md"; sourceTree = "<group>"; };
 		4BA19FC92AA02E36008F33BF /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
 		4BA19FCC2AA0A37D008F33BF /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
 		4BA19FCF2AA0AA39008F33BF /* Solution19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution19.swift; sourceTree = "<group>"; };
@@ -211,7 +219,6 @@
 		5B5692772927293200DB792C /* Solution3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3.swift; sourceTree = "<group>"; };
 		5B56927A292736E500DB792C /* Solution4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution4.swift; sourceTree = "<group>"; };
 		5B56927D292751E300DB792C /* Solution5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution5.swift; sourceTree = "<group>"; };
-		5B56928029275A0300DB792C /* StringExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExample.swift; sourceTree = "<group>"; };
 		5B5692832927739400DB792C /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 		5B5692852927835E00DB792C /* ShellSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellSort.swift; sourceTree = "<group>"; };
 		5B5692872927847900DB792C /* InsertSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertSort.swift; sourceTree = "<group>"; };
@@ -661,6 +668,23 @@
 			path = "145. 二叉树的后序遍历";
 			sourceTree = "<group>";
 		};
+		4B8DF7B32C4E3ED7000D20D2 /* 2101. 引爆最多的炸弹 */ = {
+			isa = PBXGroup;
+			children = (
+				4B8DF7B42C4E3EE9000D20D2 /* Solution2101.swift */,
+			);
+			path = "2101. 引爆最多的炸弹";
+			sourceTree = "<group>";
+		};
+		4B8DF7B82C4F518B000D20D2 /* 102. 二叉树的层序遍历 */ = {
+			isa = PBXGroup;
+			children = (
+				4B8DF7BB2C4F51DC000D20D2 /* 102. 二叉树的层序遍历.md */,
+				4B8DF7B92C4F519B000D20D2 /* Solution102.swift */,
+			);
+			path = "102. 二叉树的层序遍历";
+			sourceTree = "<group>";
+		};
 		4BA19FC82AA02E0D008F33BF /* 876.链表中的中间结点 */ = {
 			isa = PBXGroup;
 			children = (
@@ -802,9 +826,8 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
-				4B8DF7AC2C4DE4D8000D20D2 /* 145. 二叉树的后序遍历 */,
-				4B8DF7A92C4DE287000D20D2 /* 94. 二叉树的中序遍历 */,
-				4B8DF7A52C4A6536000D20D2 /* 144. 二叉树的前序遍历 */,
+				4B8DF7B82C4F518B000D20D2 /* 102. 二叉树的层序遍历 */,
+				4B8DF7B32C4E3ED7000D20D2 /* 2101. 引爆最多的炸弹 */,
 				4BCADB3B2BE8B6B000BDB948 /* 0.排序 */,
 				5B36B20A28C190D400E14D15 /* 1.两数之和 */,
 				5B36B20D28C1915300E14D15 /* 2.两数相加 */,
@@ -828,10 +851,13 @@
 				4B37D18F2A8CBD47007E6D13 /* 74.搜索二维矩阵 */,
 				4B02628C2C05AB1C00AE2B3B /* 84.柱状图中最大的矩形 */,
 				4BD1827C2A690ED400333B8A /* 88.合并两个有序数组 */,
+				4B8DF7A92C4DE287000D20D2 /* 94. 二叉树的中序遍历 */,
 				4B6DC9B62C33E032008A9C1E /* 101. 对称二叉树 */,
 				4B6DC9AA2C3238D6008A9C1E /* 104. 二叉树的最大深度 */,
 				4B6DC9BA2C33EF85008A9C1E /* 111. 二叉树的最小深度 */,
 				4BA19FCB2AA0A36A008F33BF /* 141.环形链表 */,
+				4B8DF7A52C4A6536000D20D2 /* 144. 二叉树的前序遍历 */,
+				4B8DF7AC2C4DE4D8000D20D2 /* 145. 二叉树的后序遍历 */,
 				4B13C7602BFDD0460032004B /* 150.逆波兰表达式求值 */,
 				4B6DC96C2C196E79008A9C1E /* 153. 寻找旋转排序数组中的最小值 */,
 				4B6DC9692C193C14008A9C1E /* 154.寻找旋转排序数组中的最小值 II */,
@@ -873,8 +899,8 @@
 				4B8DF7A12C49F628000D20D2 /* 3096. 得到更多分数的最少关卡数目 */,
 				4B6DC9BE2C34DAD4008A9C1E /* 3099. 哈沙德数 */,
 				4B6DC9B22C338EA8008A9C1E /* 3115. 质数的最大距离 */,
-				5B56927F292759E400DB792C /* 常用方法总结 */,
 				5B5692822927737700DB792C /* 排序算法 */,
+				5B56927F292759E400DB792C /* 算法 */,
 				4B6DC98C2C255FB2008A9C1E /* LCP61.气温变化趋势 */,
 				5B36B20328C1902C00E14D15 /* main.swift */,
 				4BCADB372BE8AED000BDB948 /* Solution.swift */,
@@ -927,12 +953,13 @@
 			path = "5.最长回文子串";
 			sourceTree = "<group>";
 		};
-		5B56927F292759E400DB792C /* 常用方法总结 */ = {
+		5B56927F292759E400DB792C /* 算法 */ = {
 			isa = PBXGroup;
 			children = (
-				5B56928029275A0300DB792C /* StringExample.swift */,
+				4B8DF7B12C4E2E52000D20D2 /* DepthFirstSearch.swift */,
+				4B8DF7B62C4F4CCB000D20D2 /* Queue.swift */,
 			);
-			path = "常用方法总结";
+			path = "算法";
 			sourceTree = "<group>";
 		};
 		5B5692822927737700DB792C /* 排序算法 */ = {
@@ -1031,9 +1058,11 @@
 				4B6DC9A02C2A92E3008A9C1E /* Solution200.swift in Sources */,
 				4BCADB3D2BE8B6CB00BDB948 /* Sort.swift in Sources */,
 				4B6DC9E22C44F561008A9C1E /* Solution721.swift in Sources */,
+				4B8DF7B52C4E3EE9000D20D2 /* Solution2101.swift in Sources */,
 				4BCD93F12AA9D84200FBA5B3 /* Solution206.swift in Sources */,
 				4B6DC9A82C2D01A1008A9C1E /* Solution2734.swift in Sources */,
 				4B0262942C08517800AE2B3B /* Solution852.swift in Sources */,
+				4B8DF7BA2C4F519B000D20D2 /* Solution102.swift in Sources */,
 				5B56927E292751E300DB792C /* Solution5.swift in Sources */,
 				4B6DC9DE2C40BF5A008A9C1E /* Solution2974.swift in Sources */,
 				4B6DC96E2C196EB3008A9C1E /* Solution153.swift in Sources */,
@@ -1043,6 +1072,7 @@
 				4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */,
 				4BCADB442BEC99ED00BDB948 /* Solution238.swift in Sources */,
 				4B13C7502BF48CD00032004B /* Solution496.swift in Sources */,
+				4B8DF7B72C4F4CCB000D20D2 /* Queue.swift in Sources */,
 				5B36B20C28C1911700E14D15 /* Solution1.swift in Sources */,
 				4BCADB382BE8AED000BDB948 /* Solution.swift in Sources */,
 				5BE7DF972929BEA300FFFB3B /* Solution9.swift in Sources */,
@@ -1093,13 +1123,13 @@
 				4B6DC9EA2C475221008A9C1E /* Solution6.swift in Sources */,
 				4B6DC9702C1977E3008A9C1E /* Solution62.swift in Sources */,
 				4BCADB4D2BF1A6B900BDB948 /* Solution42.swift in Sources */,
+				4B8DF7B22C4E2E52000D20D2 /* DepthFirstSearch.swift in Sources */,
 				4B6DC9AC2C3238E9008A9C1E /* Solution104.swift in Sources */,
 				4BCD93EE2AA99BC300FBA5B3 /* Solution442.swift in Sources */,
 				4B6DC96B2C193C31008A9C1E /* Solution154.swift in Sources */,
 				5B5692862927835E00DB792C /* ShellSort.swift in Sources */,
 				4BCADB3A2BE8AF2300BDB948 /* Solution15.swift in Sources */,
 				5B36B20F28C1917C00E14D15 /* Solution2.swift in Sources */,
-				5B56928129275A0300DB792C /* StringExample.swift in Sources */,
 				4B6DC9732C1C116F008A9C1E /* Solution221.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

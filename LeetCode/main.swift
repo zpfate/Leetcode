@@ -130,6 +130,8 @@ solution.merge(&arr1, 3, arr2, 3)
 
 //print("岛屿数量:\(solution.numIslands([["1","1","1","1","0"],["1","1","0","1","0"],["1","1","0","0","0"],["0","0","0","0","0"]]))")
 
+//print("2101. 引爆最多的炸弹:\(solution.maximumDetonation([[1,2,3],[2,3,1],[3,4,2],[4,5,3],[5,6,4]]))")
+
 
 //print("2741. 特别的排列: \(solution.specialPerm([1,2,4,8,16,32,64,128,256,512,1024,2048,4096,8192]))")
 //print("111111====\(solution.smallestString("cbabc"))")
@@ -139,7 +141,7 @@ solution.merge(&arr1, 3, arr2, 3)
 //print("lllllll:\(solution.incremovableSubarrayCountII([1, 2, 3, 4]))")
 
 //print("2974. 最小数字游戏:\(solution.numberGame([5, 4, 2, 3]))")
-print("3096. 最小数字游戏:\(solution.minimumLevels([0, 0, 0]))")
+//print("3096. 最小数字游戏:\(solution.minimumLevels([0, 0, 0]))")
 
 //print("3099:\(solution.sumOfTheDigitsOfHarshadNumber(1000))")
 
