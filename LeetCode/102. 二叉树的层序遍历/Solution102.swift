@@ -41,7 +41,7 @@ extension Solution {
             }
             result.append(temp)
         }
-  
+        
         return result
     }
 }

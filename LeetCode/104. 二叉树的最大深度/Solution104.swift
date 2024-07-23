@@ -30,9 +30,33 @@ extension Solution {
         
         let leftDepth = dfsBinaryTreeDepth(root?.left)
         let rightDepth = dfsBinaryTreeDepth(root?.right)
-        
         return 1 + max(leftDepth, rightDepth)
+    }
+    
+    fileprivate func bfsBinaryTreeDepth(_ root: TreeNode?) -> Int {
         
+        if root == nil {
+            return 0
+        }
+        
+        var queue = [TreeNode]()
+        var ans = 0
+        queue.append(root!)
+        
+        while !queue.isEmpty {
+            
+            for _ in 0..<queue.count {
+                let node = queue.removeFirst()
+                if node.left != nil {
+                    queue.append(node.left!)
+                }
+                if node.right != nil {
+                    queue.append(node.right!)
+                }
+            }
+            ans += 1
+        }
+        return ans
     }
     
 }
