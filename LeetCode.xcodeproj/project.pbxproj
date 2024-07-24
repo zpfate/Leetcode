@@ -61,6 +61,7 @@
 		4B8DF7B52C4E3EE9000D20D2 /* Solution2101.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7B42C4E3EE9000D20D2 /* Solution2101.swift */; };
 		4B8DF7B72C4F4CCB000D20D2 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7B62C4F4CCB000D20D2 /* Queue.swift */; };
 		4B8DF7BA2C4F519B000D20D2 /* Solution102.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7B92C4F519B000D20D2 /* Solution102.swift */; };
+		4B8DF7BE2C50F8A0000D20D2 /* Solution2766.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7BD2C50F8A0000D20D2 /* Solution2766.swift */; };
 		4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FC92AA02E36008F33BF /* Solution876.swift */; };
 		4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCC2AA0A37D008F33BF /* Solution141.swift */; };
 		4BA19FD02AA0AA39008F33BF /* Solution19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCF2AA0AA39008F33BF /* Solution19.swift */; };
@@ -195,6 +196,8 @@
 		4B8DF7B62C4F4CCB000D20D2 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		4B8DF7B92C4F519B000D20D2 /* Solution102.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution102.swift; sourceTree = "<group>"; };
 		4B8DF7BB2C4F51DC000D20D2 /* 102. 二叉树的层序遍历.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "102. 二叉树的层序遍历.md"; sourceTree = "<group>"; };
+		4B8DF7BD2C50F8A0000D20D2 /* Solution2766.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2766.swift; sourceTree = "<group>"; };
+		4B8DF7BF2C5110B5000D20D2 /* 2766. 重新放置石块.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "2766. 重新放置石块.md"; sourceTree = "<group>"; };
 		4BA19FC92AA02E36008F33BF /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
 		4BA19FCC2AA0A37D008F33BF /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
 		4BA19FCF2AA0AA39008F33BF /* Solution19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution19.swift; sourceTree = "<group>"; };
@@ -685,6 +688,15 @@
 			path = "102. 二叉树的层序遍历";
 			sourceTree = "<group>";
 		};
+		4B8DF7BC2C50F88F000D20D2 /* 2766. 重新放置石块 */ = {
+			isa = PBXGroup;
+			children = (
+				4B8DF7BF2C5110B5000D20D2 /* 2766. 重新放置石块.md */,
+				4B8DF7BD2C50F8A0000D20D2 /* Solution2766.swift */,
+			);
+			path = "2766. 重新放置石块";
+			sourceTree = "<group>";
+		};
 		4BA19FC82AA02E0D008F33BF /* 876.链表中的中间结点 */ = {
 			isa = PBXGroup;
 			children = (
@@ -826,6 +838,7 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B8DF7BC2C50F88F000D20D2 /* 2766. 重新放置石块 */,
 				4B8DF7B82C4F518B000D20D2 /* 102. 二叉树的层序遍历 */,
 				4B8DF7B32C4E3ED7000D20D2 /* 2101. 引爆最多的炸弹 */,
 				4BCADB3B2BE8B6B000BDB948 /* 0.排序 */,
@@ -1075,6 +1088,7 @@
 				4B8DF7B72C4F4CCB000D20D2 /* Queue.swift in Sources */,
 				5B36B20C28C1911700E14D15 /* Solution1.swift in Sources */,
 				4BCADB382BE8AED000BDB948 /* Solution.swift in Sources */,
+				4B8DF7BE2C50F8A0000D20D2 /* Solution2766.swift in Sources */,
 				5BE7DF972929BEA300FFFB3B /* Solution9.swift in Sources */,
 				4B6DC9B42C338EB8008A9C1E /* Solution3115.swift in Sources */,
 				4B6DC99C2C2A534B008A9C1E /* Solution2732.swift in Sources */,
