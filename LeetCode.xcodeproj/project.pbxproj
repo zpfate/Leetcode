@@ -62,6 +62,9 @@
 		4B8DF7B72C4F4CCB000D20D2 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7B62C4F4CCB000D20D2 /* Queue.swift */; };
 		4B8DF7BA2C4F519B000D20D2 /* Solution102.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7B92C4F519B000D20D2 /* Solution102.swift */; };
 		4B8DF7BE2C50F8A0000D20D2 /* Solution2766.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7BD2C50F8A0000D20D2 /* Solution2766.swift */; };
+		4B8DF7C22C51DD1B000D20D2 /* Solution2844.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7C12C51DD1B000D20D2 /* Solution2844.swift */; };
+		4B8DF7C72C51E4EB000D20D2 /* Solution78.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7C62C51E4EB000D20D2 /* Solution78.swift */; };
+		4B8DF7CB2C51F137000D20D2 /* Solution39.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7CA2C51F137000D20D2 /* Solution39.swift */; };
 		4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FC92AA02E36008F33BF /* Solution876.swift */; };
 		4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCC2AA0A37D008F33BF /* Solution141.swift */; };
 		4BA19FD02AA0AA39008F33BF /* Solution19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCF2AA0AA39008F33BF /* Solution19.swift */; };
@@ -198,6 +201,11 @@
 		4B8DF7BB2C4F51DC000D20D2 /* 102. 二叉树的层序遍历.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "102. 二叉树的层序遍历.md"; sourceTree = "<group>"; };
 		4B8DF7BD2C50F8A0000D20D2 /* Solution2766.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2766.swift; sourceTree = "<group>"; };
 		4B8DF7BF2C5110B5000D20D2 /* 2766. 重新放置石块.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "2766. 重新放置石块.md"; sourceTree = "<group>"; };
+		4B8DF7C12C51DD1B000D20D2 /* Solution2844.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2844.swift; sourceTree = "<group>"; };
+		4B8DF7C32C51DD8B000D20D2 /* 2844. 生成特殊数字的最少操作.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "2844. 生成特殊数字的最少操作.md"; sourceTree = "<group>"; };
+		4B8DF7C62C51E4EB000D20D2 /* Solution78.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution78.swift; sourceTree = "<group>"; };
+		4B8DF7C82C51F11A000D20D2 /* 78. 子集.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "78. 子集.md"; sourceTree = "<group>"; };
+		4B8DF7CA2C51F137000D20D2 /* Solution39.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution39.swift; sourceTree = "<group>"; };
 		4BA19FC92AA02E36008F33BF /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
 		4BA19FCC2AA0A37D008F33BF /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
 		4BA19FCF2AA0AA39008F33BF /* Solution19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution19.swift; sourceTree = "<group>"; };
@@ -697,6 +705,32 @@
 			path = "2766. 重新放置石块";
 			sourceTree = "<group>";
 		};
+		4B8DF7C02C51DD04000D20D2 /* 2844. 生成特殊数字的最少操作 */ = {
+			isa = PBXGroup;
+			children = (
+				4B8DF7C32C51DD8B000D20D2 /* 2844. 生成特殊数字的最少操作.md */,
+				4B8DF7C12C51DD1B000D20D2 /* Solution2844.swift */,
+			);
+			path = "2844. 生成特殊数字的最少操作";
+			sourceTree = "<group>";
+		};
+		4B8DF7C52C51E4DB000D20D2 /* 78. 子集 */ = {
+			isa = PBXGroup;
+			children = (
+				4B8DF7C82C51F11A000D20D2 /* 78. 子集.md */,
+				4B8DF7C62C51E4EB000D20D2 /* Solution78.swift */,
+			);
+			path = "78. 子集";
+			sourceTree = "<group>";
+		};
+		4B8DF7C92C51F128000D20D2 /* 39. 组合总和 */ = {
+			isa = PBXGroup;
+			children = (
+				4B8DF7CA2C51F137000D20D2 /* Solution39.swift */,
+			);
+			path = "39. 组合总和";
+			sourceTree = "<group>";
+		};
 		4BA19FC82AA02E0D008F33BF /* 876.链表中的中间结点 */ = {
 			isa = PBXGroup;
 			children = (
@@ -838,6 +872,9 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B8DF7C92C51F128000D20D2 /* 39. 组合总和 */,
+				4B8DF7C52C51E4DB000D20D2 /* 78. 子集 */,
+				4B8DF7C02C51DD04000D20D2 /* 2844. 生成特殊数字的最少操作 */,
 				4B8DF7BC2C50F88F000D20D2 /* 2766. 重新放置石块 */,
 				4B8DF7B82C4F518B000D20D2 /* 102. 二叉树的层序遍历 */,
 				4B8DF7B32C4E3ED7000D20D2 /* 2101. 引爆最多的炸弹 */,
@@ -1084,6 +1121,7 @@
 				4B6DC98B2C255FAB008A9C1E /* SolutionLCP61.swift in Sources */,
 				4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */,
 				4BCADB442BEC99ED00BDB948 /* Solution238.swift in Sources */,
+				4B8DF7C72C51E4EB000D20D2 /* Solution78.swift in Sources */,
 				4B13C7502BF48CD00032004B /* Solution496.swift in Sources */,
 				4B8DF7B72C4F4CCB000D20D2 /* Queue.swift in Sources */,
 				5B36B20C28C1911700E14D15 /* Solution1.swift in Sources */,
@@ -1124,6 +1162,7 @@
 				4B02629B2C0F05CA00AE2B3B /* Solution35.swift in Sources */,
 				4B68FE922A9754CA009FA727 /* Solution905.swift in Sources */,
 				5B56927B292736E500DB792C /* Solution4.swift in Sources */,
+				4B8DF7C22C51DD1B000D20D2 /* Solution2844.swift in Sources */,
 				4B68FE8F2A97519B009FA727 /* Solution20.swift in Sources */,
 				4B13C7592BF5D8F80032004B /* Solution213.swift in Sources */,
 				4B13C75F2BFDC8DC0032004B /* Solution300.swift in Sources */,
@@ -1132,6 +1171,7 @@
 				4B6DC9A42C2BBF06008A9C1E /* Solution2741.swift in Sources */,
 				4B0262972C0DAFAA00AE2B3B /* Solution278.swift in Sources */,
 				4B6DC9902C2824F0008A9C1E /* Solution520.swift in Sources */,
+				4B8DF7CB2C51F137000D20D2 /* Solution39.swift in Sources */,
 				4B6DC9792C1C1626008A9C1E /* Solution174.swift in Sources */,
 				5B5692842927739400DB792C /* BubbleSort.swift in Sources */,
 				4B6DC9EA2C475221008A9C1E /* Solution6.swift in Sources */,
