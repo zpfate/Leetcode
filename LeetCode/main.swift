@@ -145,3 +145,20 @@ solution.merge(&arr1, 3, arr2, 3)
 
 //print("3099:\(solution.sumOfTheDigitsOfHarshadNumber(1000))")
 
+
+solution.minimumOperations("2245047")
+
+let str = "Hello, 👋🌍!"
+
+// 获取索引
+let startIndex = str.startIndex
+let endIndex = str.endIndex
+
+// 获取指定位置的字符
+let char = str[str.index(startIndex, offsetBy: 7)]
+print(char)  // 输出: "👋"
+
+// 遍历字符串中的每个字符
+for (index, char) in str.enumerated() {
+    print("Character at \(index): \(char)")
+}

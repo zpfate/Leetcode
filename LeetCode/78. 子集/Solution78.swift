@@ -32,8 +32,6 @@ extension Solution {
         return result
     }
     
-    
-    
     fileprivate func backtracking(_ result: inout [[Int]], _ list: inout [Int], _ nums: [Int], _ pos: Int) -> Void {
         
         result.append(list)

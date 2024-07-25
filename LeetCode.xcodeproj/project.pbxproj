@@ -206,6 +206,7 @@
 		4B8DF7C62C51E4EB000D20D2 /* Solution78.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution78.swift; sourceTree = "<group>"; };
 		4B8DF7C82C51F11A000D20D2 /* 78. 子集.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "78. 子集.md"; sourceTree = "<group>"; };
 		4B8DF7CA2C51F137000D20D2 /* Solution39.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution39.swift; sourceTree = "<group>"; };
+		4B8DF7CC2C521953000D20D2 /* 39. 组合总和.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "39. 组合总和.md"; sourceTree = "<group>"; };
 		4BA19FC92AA02E36008F33BF /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
 		4BA19FCC2AA0A37D008F33BF /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
 		4BA19FCF2AA0AA39008F33BF /* Solution19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution19.swift; sourceTree = "<group>"; };
@@ -726,6 +727,7 @@
 		4B8DF7C92C51F128000D20D2 /* 39. 组合总和 */ = {
 			isa = PBXGroup;
 			children = (
+				4B8DF7CC2C521953000D20D2 /* 39. 组合总和.md */,
 				4B8DF7CA2C51F137000D20D2 /* Solution39.swift */,
 			);
 			path = "39. 组合总和";
