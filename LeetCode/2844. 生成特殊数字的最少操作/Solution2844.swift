@@ -59,21 +59,6 @@ extension Solution {
     fileprivate func backtracking() -> Void {
         
         
-        
     }
     
-    fileprivate func isDivided(_ num: String) -> Bool {
-        
-        if num == "0" {
-            return true
-        }
-        
-        let divisors = ["00", "25", "50", "75"]
-        for divisor in divisors {
-            if num.hasSuffix(divisor) {
-                return true
-            }
-        }
-        return false
-    }
 }

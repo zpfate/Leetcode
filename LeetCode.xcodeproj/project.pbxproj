@@ -65,6 +65,7 @@
 		4B8DF7C22C51DD1B000D20D2 /* Solution2844.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7C12C51DD1B000D20D2 /* Solution2844.swift */; };
 		4B8DF7C72C51E4EB000D20D2 /* Solution78.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7C62C51E4EB000D20D2 /* Solution78.swift */; };
 		4B8DF7CB2C51F137000D20D2 /* Solution39.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7CA2C51F137000D20D2 /* Solution39.swift */; };
+		4B8DF7CF2C532CFB000D20D2 /* Solution2740.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7CE2C532CFA000D20D2 /* Solution2740.swift */; };
 		4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FC92AA02E36008F33BF /* Solution876.swift */; };
 		4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCC2AA0A37D008F33BF /* Solution141.swift */; };
 		4BA19FD02AA0AA39008F33BF /* Solution19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCF2AA0AA39008F33BF /* Solution19.swift */; };
@@ -207,6 +208,8 @@
 		4B8DF7C82C51F11A000D20D2 /* 78. 子集.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "78. 子集.md"; sourceTree = "<group>"; };
 		4B8DF7CA2C51F137000D20D2 /* Solution39.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution39.swift; sourceTree = "<group>"; };
 		4B8DF7CC2C521953000D20D2 /* 39. 组合总和.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "39. 组合总和.md"; sourceTree = "<group>"; };
+		4B8DF7CE2C532CFA000D20D2 /* Solution2740.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2740.swift; sourceTree = "<group>"; };
+		4B8DF7D02C533125000D20D2 /* 2740. 找出分区值.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "2740. 找出分区值.md"; sourceTree = "<group>"; };
 		4BA19FC92AA02E36008F33BF /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
 		4BA19FCC2AA0A37D008F33BF /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
 		4BA19FCF2AA0AA39008F33BF /* Solution19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution19.swift; sourceTree = "<group>"; };
@@ -733,6 +736,15 @@
 			path = "39. 组合总和";
 			sourceTree = "<group>";
 		};
+		4B8DF7CD2C532CE8000D20D2 /* 2740. 找出分区值 */ = {
+			isa = PBXGroup;
+			children = (
+				4B8DF7D02C533125000D20D2 /* 2740. 找出分区值.md */,
+				4B8DF7CE2C532CFA000D20D2 /* Solution2740.swift */,
+			);
+			path = "2740. 找出分区值";
+			sourceTree = "<group>";
+		};
 		4BA19FC82AA02E0D008F33BF /* 876.链表中的中间结点 */ = {
 			isa = PBXGroup;
 			children = (
@@ -874,6 +886,7 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B8DF7CD2C532CE8000D20D2 /* 2740. 找出分区值 */,
 				4B8DF7C92C51F128000D20D2 /* 39. 组合总和 */,
 				4B8DF7C52C51E4DB000D20D2 /* 78. 子集 */,
 				4B8DF7C02C51DD04000D20D2 /* 2844. 生成特殊数字的最少操作 */,
@@ -1131,6 +1144,7 @@
 				4B8DF7BE2C50F8A0000D20D2 /* Solution2766.swift in Sources */,
 				5BE7DF972929BEA300FFFB3B /* Solution9.swift in Sources */,
 				4B6DC9B42C338EB8008A9C1E /* Solution3115.swift in Sources */,
+				4B8DF7CF2C532CFB000D20D2 /* Solution2740.swift in Sources */,
 				4B6DC99C2C2A534B008A9C1E /* Solution2732.swift in Sources */,
 				4B6DC9682C17ED20008A9C1E /* Solution34.swift in Sources */,
 				4B6DC9C52C377DB9008A9C1E /* Solution3033.swift in Sources */,
