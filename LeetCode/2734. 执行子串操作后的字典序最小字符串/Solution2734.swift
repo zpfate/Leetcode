@@ -44,7 +44,7 @@ extension Solution {
                 }
             } else {
                 flag = true
-               chars[i] = previousChar(c)
+                chars[i] = previousChar(c)
             }
         }
         return String(chars)

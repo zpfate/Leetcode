@@ -46,7 +46,6 @@ solution.merge(&arr1, 3, arr2, 3)
 // 150.逆波兰表达式
 //print("150.逆波兰表达式:\(solution.evalRPN(["4","13","5","/","+"]))")
 
-
 // 154. 寻找旋转排序数组中的最小值 II
 //print("154. 寻找旋转排序数组中的最小值 II: \(solution.findMin([3,4,5,1,2]))")
 
@@ -145,8 +144,9 @@ solution.merge(&arr1, 3, arr2, 3)
 
 //print("3099:\(solution.sumOfTheDigitsOfHarshadNumber(1000))")
 
+//solution.minimumOperations("2245047")
 
-solution.minimumOperations("2245047")
+solution.calPoints(["5","2","C","D","+"])
 
 let str = "Hello, 👋🌍!"
 
