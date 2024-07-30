@@ -150,6 +150,23 @@ solution.merge(&arr1, 3, arr2, 3)
 
 print("2961:双模幂运算: \(solution.getGoodIndices([[6,1,1,4]], 2))")
 
+func myPow(_ x: Double, _ n: Int) -> Double {
+
+    var res:Double = 1
+    if n == 0 {
+        return 1
+    }
+    for i in 1...n {
+        res *= x
+    }
+
+    if n < 0 {
+        return 1 / res
+    }
+    return res
+}
+
+myPow(2, -2)
 
 let str = "Hello, 👋🌍!"
 

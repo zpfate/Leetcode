@@ -22,26 +22,43 @@ import Foundation
 
 extension Solution {
     
-    
     func getGoodIndices(_ variables: [[Int]], _ target: Int) -> [Int] {
-        
-        if variables.isEmpty {
-            return []
+
+        var goodIndexes: [Int] = []
+
+        // 快速幂算法
+        func modularExponentiation(base: Int, exponent: Int, mod: Int) -> Int {
+            var result = 1
+            var base = base % mod
+            var exponent = exponent
+
+            while exponent > 0 {
+                if exponent % 2 == 1 {
+                    result = (result * base) % mod
+                }
+                base = (base * base) % mod
+                exponent /= 2
+            }
+
+            return result
         }
 
-        var res = [Int]()
-        
-        for i in 0..<variables.count {
-            
-            let arr = variables[i]
-            
-            let value1 = arr[0]^arr[1] % 10
-            let value2 = value1^arr[2] % arr[3]
-            
-            if value2 == target {
-                res.append(i)
+        for (index, variable) in variables.enumerated() {
+            let ai = variable[0]
+            let bi = variable[1]
+            let ci = variable[2]
+            let mi = variable[3]
+
+            // 计算 (ai^bi) % 10
+            let firstPower = modularExponentiation(base: ai, exponent: bi, mod: 10)
+            // 计算 (firstPower^ci) % mi
+            let result = modularExponentiation(base: firstPower, exponent: ci, mod: mi)
+
+            if result == target {
+                goodIndexes.append(index)
             }
         }
-        return res
+        
+        return goodIndexes
     }
 }
