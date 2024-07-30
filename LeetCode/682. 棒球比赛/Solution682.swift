@@ -31,10 +31,14 @@ extension Solution {
         
         var stack = [Int]()
         var res: Int = 0
+        
         for i in 0..<operations.count {
+            
             let op = operations[i]
             var score = 0
+            
             switch op {
+                
             case "+":
                 score = stack.last! + stack[stack.count - 2]
                 stack.append(score)
@@ -45,11 +49,12 @@ extension Solution {
 
             case "C":
                 score = -(stack.popLast()!)
+                
             default:
                 score = Int(op) ?? 0
                 stack.append(score)
-
             }
+            
             res += score
         }
         return res

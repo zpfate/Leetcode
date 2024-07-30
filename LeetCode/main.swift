@@ -146,7 +146,10 @@ solution.merge(&arr1, 3, arr2, 3)
 
 //solution.minimumOperations("2245047")
 
-solution.calPoints(["5","2","C","D","+"])
+//solution.calPoints(["5","2","C","D","+"])
+
+print("2961:双模幂运算: \(solution.getGoodIndices([[6,1,1,4]], 2))")
+
 
 let str = "Hello, 👋🌍!"
 
@@ -162,3 +165,7 @@ print(char)  // 输出: "👋"
 for (index, char) in str.enumerated() {
     print("Character at \(index): \(char)")
 }
+
+
+
+

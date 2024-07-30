@@ -68,6 +68,7 @@
 		4B8DF7CF2C532CFB000D20D2 /* Solution2740.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7CE2C532CFA000D20D2 /* Solution2740.swift */; };
 		4B8DF7D32C5492F2000D20D2 /* Solution3106.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7D22C5492F2000D20D2 /* Solution3106.swift */; };
 		4B8DF7D62C571EC7000D20D2 /* Solution682.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7D52C571EC7000D20D2 /* Solution682.swift */; };
+		4B8DF7DA2C5872FB000D20D2 /* Solution2961.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7D92C5872FB000D20D2 /* Solution2961.swift */; };
 		4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FC92AA02E36008F33BF /* Solution876.swift */; };
 		4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCC2AA0A37D008F33BF /* Solution141.swift */; };
 		4BA19FD02AA0AA39008F33BF /* Solution19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCF2AA0AA39008F33BF /* Solution19.swift */; };
@@ -215,6 +216,8 @@
 		4B8DF7D22C5492F2000D20D2 /* Solution3106.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3106.swift; sourceTree = "<group>"; };
 		4B8DF7D52C571EC7000D20D2 /* Solution682.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution682.swift; sourceTree = "<group>"; };
 		4B8DF7D72C571F74000D20D2 /* 682. 棒球比赛.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "682. 棒球比赛.md"; sourceTree = "<group>"; };
+		4B8DF7D92C5872FB000D20D2 /* Solution2961.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2961.swift; sourceTree = "<group>"; };
+		4B8DF7DB2C588992000D20D2 /* 2961. 双模幂运算.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "2961. 双模幂运算.md"; sourceTree = "<group>"; };
 		4BA19FC92AA02E36008F33BF /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
 		4BA19FCC2AA0A37D008F33BF /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
 		4BA19FCF2AA0AA39008F33BF /* Solution19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution19.swift; sourceTree = "<group>"; };
@@ -767,6 +770,15 @@
 			path = "682. 棒球比赛";
 			sourceTree = "<group>";
 		};
+		4B8DF7D82C5872EC000D20D2 /* 2961. 双模幂运算 */ = {
+			isa = PBXGroup;
+			children = (
+				4B8DF7DB2C588992000D20D2 /* 2961. 双模幂运算.md */,
+				4B8DF7D92C5872FB000D20D2 /* Solution2961.swift */,
+			);
+			path = "2961. 双模幂运算";
+			sourceTree = "<group>";
+		};
 		4BA19FC82AA02E0D008F33BF /* 876.链表中的中间结点 */ = {
 			isa = PBXGroup;
 			children = (
@@ -908,6 +920,7 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B8DF7D82C5872EC000D20D2 /* 2961. 双模幂运算 */,
 				4B8DF7D42C571EB2000D20D2 /* 682. 棒球比赛 */,
 				4B8DF7D12C5492E2000D20D2 /* 3106. 满足距离约束且字典序最小的字符串 */,
 				4B8DF7CD2C532CE8000D20D2 /* 2740. 找出分区值 */,
@@ -1199,6 +1212,7 @@
 				4B6DC9C22C3690FB008A9C1E /* Solution111.swift in Sources */,
 				4B37D1912A8CBD63007E6D13 /* Solution74.swift in Sources */,
 				4B13C75C2BF5E1C30032004B /* Solution198.swift in Sources */,
+				4B8DF7DA2C5872FB000D20D2 /* Solution2961.swift in Sources */,
 				4B02628E2C05AB3D00AE2B3B /* Solution84.swift in Sources */,
 				5B5692782927293200DB792C /* Solution3.swift in Sources */,
 				4B02629B2C0F05CA00AE2B3B /* Solution35.swift in Sources */,
