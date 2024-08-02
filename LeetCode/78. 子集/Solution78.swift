@@ -44,7 +44,7 @@ extension Solution {
     }
     
     /// 回溯法
-    func helper(_ result: inout [[Int]], list: inout [Int], nums: [Int], pos: Int) -> Void {
+    fileprivate func helper(_ result: inout [[Int]], list: inout [Int], nums: [Int], pos: Int) -> Void {
         
         if pos == nums.count {
             result.append(list)

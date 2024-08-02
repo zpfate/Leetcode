@@ -132,8 +132,12 @@ solution.merge(&arr1, 3, arr2, 3)
 
 //solution.calPoints(["5","2","C","D","+"])
 
-print("2961:双模幂运算: \(solution.getGoodIndices([[6,1,1,4]], 2))")
-print("3111: \(solution.minRectanglesToCoverPoints([[2,1],[1,0],[1,4],[1,8],[3,5],[4,6]], 1))")
+//print("2961:双模幂运算: \(solution.getGoodIndices([[6,1,1,4]], 2))")
+//print("3111: \(solution.minRectanglesToCoverPoints([[2,1],[1,0],[1,4],[1,8],[3,5],[4,6]], 1))")
+
+//solution.maxmiumScore([1,3,4,5], 4)
+
+solution.numberOfRightTriangles([[0,1,0],[0,1,1],[0,1,0]])
 
 //let str = "Hello, 👋🌍!"
 //
