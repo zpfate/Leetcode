@@ -13,6 +13,7 @@
 		4B0262972C0DAFAA00AE2B3B /* Solution278.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0262962C0DAFAA00AE2B3B /* Solution278.swift */; };
 		4B02629B2C0F05CA00AE2B3B /* Solution35.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B02629A2C0F05CA00AE2B3B /* Solution35.swift */; };
 		4B0303BC2C5C6E650054B123 /* Solution3128.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0303BB2C5C6E650054B123 /* Solution3128.swift */; };
+		4B0303D62C61ED710054B123 /* Solution3129.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0303D52C61ED710054B123 /* Solution3129.swift */; };
 		4B13C7502BF48CD00032004B /* Solution496.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B13C74F2BF48CD00032004B /* Solution496.swift */; };
 		4B13C7532BF5A2AC0032004B /* Solution509.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B13C7522BF5A2AC0032004B /* Solution509.swift */; };
 		4B13C7562BF5A8590032004B /* Solution1137.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B13C7552BF5A8590032004B /* Solution1137.swift */; };
@@ -20,6 +21,8 @@
 		4B13C75C2BF5E1C30032004B /* Solution198.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B13C75B2BF5E1C30032004B /* Solution198.swift */; };
 		4B13C75F2BFDC8DC0032004B /* Solution300.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B13C75E2BFDC8DC0032004B /* Solution300.swift */; };
 		4B13C7622BFDD05D0032004B /* Solution150.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B13C7612BFDD05D0032004B /* Solution150.swift */; };
+		4B3363D32C621C7E0030D483 /* Solution236.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3363D22C621C7E0030D483 /* Solution236.swift */; };
+		4B3363D82C623CE00030D483 /* Solution98.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3363D72C623CE00030D483 /* Solution98.swift */; };
 		4B37D1912A8CBD63007E6D13 /* Solution74.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B37D1902A8CBD63007E6D13 /* Solution74.swift */; };
 		4B50DA212A6FD9B700DB8FB3 /* Solution739.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B50DA202A6FD9B700DB8FB3 /* Solution739.swift */; };
 		4B68FE8F2A97519B009FA727 /* Solution20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B68FE8E2A97519B009FA727 /* Solution20.swift */; };
@@ -124,6 +127,7 @@
 		4B02629A2C0F05CA00AE2B3B /* Solution35.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution35.swift; sourceTree = "<group>"; };
 		4B0303BB2C5C6E650054B123 /* Solution3128.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3128.swift; sourceTree = "<group>"; };
 		4B0303BD2C5C80CD0054B123 /* 3128. 直角三角形.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3128. 直角三角形.md"; sourceTree = "<group>"; };
+		4B0303D52C61ED710054B123 /* Solution3129.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3129.swift; sourceTree = "<group>"; };
 		4B13C74F2BF48CD00032004B /* Solution496.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution496.swift; sourceTree = "<group>"; };
 		4B13C7522BF5A2AC0032004B /* Solution509.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution509.swift; sourceTree = "<group>"; };
 		4B13C7552BF5A8590032004B /* Solution1137.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution1137.swift; sourceTree = "<group>"; };
@@ -131,6 +135,11 @@
 		4B13C75B2BF5E1C30032004B /* Solution198.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution198.swift; sourceTree = "<group>"; };
 		4B13C75E2BFDC8DC0032004B /* Solution300.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution300.swift; sourceTree = "<group>"; };
 		4B13C7612BFDD05D0032004B /* Solution150.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution150.swift; sourceTree = "<group>"; };
+		4B3363D22C621C7E0030D483 /* Solution236.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution236.swift; sourceTree = "<group>"; };
+		4B3363D42C621CD60030D483 /* 236. 二叉树的最近公共祖先.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "236. 二叉树的最近公共祖先.md"; sourceTree = "<group>"; };
+		4B3363D52C623CA90030D483 /* 3129. 找出所有稳定的二进制数组 I.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3129. 找出所有稳定的二进制数组 I.md"; sourceTree = "<group>"; };
+		4B3363D72C623CE00030D483 /* Solution98.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution98.swift; sourceTree = "<group>"; };
+		4B3363D92C623DA20030D483 /* 98. 验证二叉搜索树.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "98. 验证二叉搜索树.md"; sourceTree = "<group>"; };
 		4B37D1902A8CBD63007E6D13 /* Solution74.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution74.swift; sourceTree = "<group>"; };
 		4B50DA202A6FD9B700DB8FB3 /* Solution739.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution739.swift; sourceTree = "<group>"; };
 		4B68FE8E2A97519B009FA727 /* Solution20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution20.swift; sourceTree = "<group>"; };
@@ -323,6 +332,15 @@
 			path = "3128. 直角三角形";
 			sourceTree = "<group>";
 		};
+		4B0303D22C61ED4C0054B123 /* 3129. 找出所有稳定的二进制数组 I */ = {
+			isa = PBXGroup;
+			children = (
+				4B3363D52C623CA90030D483 /* 3129. 找出所有稳定的二进制数组 I.md */,
+				4B0303D52C61ED710054B123 /* Solution3129.swift */,
+			);
+			path = "3129. 找出所有稳定的二进制数组 I";
+			sourceTree = "<group>";
+		};
 		4B13C74E2BF48C990032004B /* 496.下一个更大元素1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -377,6 +395,24 @@
 				4B13C7612BFDD05D0032004B /* Solution150.swift */,
 			);
 			path = "150.逆波兰表达式求值";
+			sourceTree = "<group>";
+		};
+		4B3363D12C621C6D0030D483 /* 236. 二叉树的最近公共祖先 */ = {
+			isa = PBXGroup;
+			children = (
+				4B3363D42C621CD60030D483 /* 236. 二叉树的最近公共祖先.md */,
+				4B3363D22C621C7E0030D483 /* Solution236.swift */,
+			);
+			path = "236. 二叉树的最近公共祖先";
+			sourceTree = "<group>";
+		};
+		4B3363D62C623CCA0030D483 /* 98. 验证二叉搜索树 */ = {
+			isa = PBXGroup;
+			children = (
+				4B3363D92C623DA20030D483 /* 98. 验证二叉搜索树.md */,
+				4B3363D72C623CE00030D483 /* Solution98.swift */,
+			);
+			path = "98. 验证二叉搜索树";
 			sourceTree = "<group>";
 		};
 		4B37D18F2A8CBD47007E6D13 /* 74.搜索二维矩阵 */ = {
@@ -968,6 +1004,9 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B3363D62C623CCA0030D483 /* 98. 验证二叉搜索树 */,
+				4B3363D12C621C6D0030D483 /* 236. 二叉树的最近公共祖先 */,
+				4B0303D22C61ED4C0054B123 /* 3129. 找出所有稳定的二进制数组 I */,
 				4B0303BA2C5C6E4F0054B123 /* 3128. 直角三角形 */,
 				4BAD541B2C5B1FB300C8A19C /* LCP 40. 心算挑战 */,
 				4B8DF7E02C59C55D000D20D2 /* 3111. 覆盖所有点的最少矩形数目  */,
@@ -1273,6 +1312,7 @@
 				4B02629B2C0F05CA00AE2B3B /* Solution35.swift in Sources */,
 				4B68FE922A9754CA009FA727 /* Solution905.swift in Sources */,
 				5B56927B292736E500DB792C /* Solution4.swift in Sources */,
+				4B3363D82C623CE00030D483 /* Solution98.swift in Sources */,
 				4B8DF7C22C51DD1B000D20D2 /* Solution2844.swift in Sources */,
 				4B68FE8F2A97519B009FA727 /* Solution20.swift in Sources */,
 				4B13C7592BF5D8F80032004B /* Solution213.swift in Sources */,
@@ -1280,6 +1320,7 @@
 				4B50DA212A6FD9B700DB8FB3 /* Solution739.swift in Sources */,
 				5BE7DF942928CD0D00FFFB3B /* SelectSort.swift in Sources */,
 				4B6DC9A42C2BBF06008A9C1E /* Solution2741.swift in Sources */,
+				4B3363D32C621C7E0030D483 /* Solution236.swift in Sources */,
 				4B0262972C0DAFAA00AE2B3B /* Solution278.swift in Sources */,
 				4B6DC9902C2824F0008A9C1E /* Solution520.swift in Sources */,
 				4B8DF7CB2C51F137000D20D2 /* Solution39.swift in Sources */,
@@ -1291,6 +1332,7 @@
 				4BCADB4D2BF1A6B900BDB948 /* Solution42.swift in Sources */,
 				4B8DF7B22C4E2E52000D20D2 /* DepthFirstSearch.swift in Sources */,
 				4B6DC9AC2C3238E9008A9C1E /* Solution104.swift in Sources */,
+				4B0303D62C61ED710054B123 /* Solution3129.swift in Sources */,
 				4BCD93EE2AA99BC300FBA5B3 /* Solution442.swift in Sources */,
 				4B6DC96B2C193C31008A9C1E /* Solution154.swift in Sources */,
 				5B5692862927835E00DB792C /* ShellSort.swift in Sources */,

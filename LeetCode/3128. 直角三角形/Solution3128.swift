@@ -34,7 +34,6 @@ extension Solution {
         
         var points = [[Int]](repeating: [Int](repeating: 0, count: max(m, n)), count: 2)
         
-        
         for i in 0..<m {
             for j in 0..<n {
                 if grid[i][j] == 1 {
