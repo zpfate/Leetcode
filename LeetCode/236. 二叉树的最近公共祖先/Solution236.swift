@@ -19,42 +19,53 @@ extension Solution {
     
     func lowestCommonAncestor(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
         
+        
+        if root === p || root === q {
+            return root
+        }
+        
+        
+        let left = lowestCommonAncestor(root?.left, p, q)
+        let right = lowestCommonAncestorII(root?.right, p, q)
+        
+        if left == nil {
+            return right
+        }
+        
+        if right == nil {
+            return left
+        }
+        return root
+    
+    }
+    
+    func lowestCommonAncestorII(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
+        
         if root == nil {
             return nil
         }
         
-        var node = root
-        
-        let left = dfs(root, p, q)
+        var node: TreeNode?
+        let left = dfs(&node, root, p, q)
     
         return node
-        
     }
     
     
-    
-    func dfs(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> Bool {
+    func dfs(_ node: inout TreeNode?, _ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> Bool {
         
         if root == nil {
             return false
         }
         
-        let left = dfs(root?.left, p, q)
-        let right = dfs(root?.right, p, q)
+        let left = dfs(&node, root?.left, p, q)
+        let right = dfs(&node, root?.right, p, q)
         
-        if left && right || (root?.val == p?.val) {
-        
+        if (left && right) || (root?.val == p?.val || root?.val == q?.val) && (left || right) {
+            node = root
         }
 
-        return dfs(root, p, q)
+        return left || right || root?.val == p?.val || root?.val == q?.val
     }
-    
-    
-    
-    
-    
-    
-    
-    
     
 }

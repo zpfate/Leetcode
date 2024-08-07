@@ -26,7 +26,19 @@ extension Solution {
     
     func isValidBST(_ root: TreeNode?) -> Bool {
 
+        return helper(root, lower: Int.min, upper: Int.max)
+    }
+    
+    fileprivate func helper(_ node: TreeNode?, lower: Int, upper: Int) -> Bool {
         
-        return false
+        if node == nil {
+            return true
+        }
+        
+        if node!.val <= lower || node!.val >= upper {
+            return false
+        }
+        
+        return helper(node?.left, lower: lower, upper: node!.val) && helper(node?.right, lower: node!.val, upper: upper)
     }
 }
