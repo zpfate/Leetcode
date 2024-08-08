@@ -23,6 +23,7 @@
 		4B13C7622BFDD05D0032004B /* Solution150.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B13C7612BFDD05D0032004B /* Solution150.swift */; };
 		4B3363D32C621C7E0030D483 /* Solution236.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3363D22C621C7E0030D483 /* Solution236.swift */; };
 		4B3363D82C623CE00030D483 /* Solution98.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3363D72C623CE00030D483 /* Solution98.swift */; };
+		4B3363E62C6453ED0030D483 /* Solution3131.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3363E52C6453ED0030D483 /* Solution3131.swift */; };
 		4B37D1912A8CBD63007E6D13 /* Solution74.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B37D1902A8CBD63007E6D13 /* Solution74.swift */; };
 		4B50DA212A6FD9B700DB8FB3 /* Solution739.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B50DA202A6FD9B700DB8FB3 /* Solution739.swift */; };
 		4B68FE8F2A97519B009FA727 /* Solution20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B68FE8E2A97519B009FA727 /* Solution20.swift */; };
@@ -140,6 +141,8 @@
 		4B3363D52C623CA90030D483 /* 3129. 找出所有稳定的二进制数组 I.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3129. 找出所有稳定的二进制数组 I.md"; sourceTree = "<group>"; };
 		4B3363D72C623CE00030D483 /* Solution98.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution98.swift; sourceTree = "<group>"; };
 		4B3363D92C623DA20030D483 /* 98. 验证二叉搜索树.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "98. 验证二叉搜索树.md"; sourceTree = "<group>"; };
+		4B3363E52C6453ED0030D483 /* Solution3131.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3131.swift; sourceTree = "<group>"; };
+		4B3363E72C645E180030D483 /* 3131. 找出与数组相加的整数 I.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3131. 找出与数组相加的整数 I.md"; sourceTree = "<group>"; };
 		4B37D1902A8CBD63007E6D13 /* Solution74.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution74.swift; sourceTree = "<group>"; };
 		4B50DA202A6FD9B700DB8FB3 /* Solution739.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution739.swift; sourceTree = "<group>"; };
 		4B68FE8E2A97519B009FA727 /* Solution20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution20.swift; sourceTree = "<group>"; };
@@ -413,6 +416,15 @@
 				4B3363D72C623CE00030D483 /* Solution98.swift */,
 			);
 			path = "98. 验证二叉搜索树";
+			sourceTree = "<group>";
+		};
+		4B3363E22C6453C90030D483 /* 3131. 找出与数组相加的整数 I */ = {
+			isa = PBXGroup;
+			children = (
+				4B3363E72C645E180030D483 /* 3131. 找出与数组相加的整数 I.md */,
+				4B3363E52C6453ED0030D483 /* Solution3131.swift */,
+			);
+			path = "3131. 找出与数组相加的整数 I";
 			sourceTree = "<group>";
 		};
 		4B37D18F2A8CBD47007E6D13 /* 74.搜索二维矩阵 */ = {
@@ -1004,6 +1016,7 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B3363E22C6453C90030D483 /* 3131. 找出与数组相加的整数 I */,
 				4B3363D62C623CCA0030D483 /* 98. 验证二叉搜索树 */,
 				4B3363D12C621C6D0030D483 /* 236. 二叉树的最近公共祖先 */,
 				4B0303D22C61ED4C0054B123 /* 3129. 找出所有稳定的二进制数组 I */,
@@ -1245,6 +1258,7 @@
 				4B6DC9B82C33E045008A9C1E /* Solution101.swift in Sources */,
 				4B0303BC2C5C6E650054B123 /* Solution3128.swift in Sources */,
 				4B6DC9E62C460015008A9C1E /* Solution2956.swift in Sources */,
+				4B3363E62C6453ED0030D483 /* Solution3131.swift in Sources */,
 				4B8DF7AE2C4DE4EB000D20D2 /* Solution145.swift in Sources */,
 				4B6DC9D62C3E162E008A9C1E /* Solution2970.swift in Sources */,
 				4BCADB4A2BEF58EA00BDB948 /* Solution1588.swift in Sources */,
