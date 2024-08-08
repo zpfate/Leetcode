@@ -153,3 +153,6 @@ solution.numberOfRightTriangles([[0,1,0],[0,1,1],[0,1,0]])
 //for (index, char) in str.enumerated() {
 //    print("Character at \(index): \(char)")
 //}
+
+
+SolutionX().threeSumClosest([-1,2,1,-4], 1)
