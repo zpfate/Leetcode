@@ -26,12 +26,12 @@ extension Solution {
              return 0
          }
          
-         var result: Int?
          let sorted = nums.sorted()
          let len = sorted.count
          var start = 0
-         
-         while start + 1 < len {
+        var result: Int = nums[0] + nums[1] + nums[len - 1]
+
+         while start + 2 < len {
              
              var l = 1 + start
              var r = len - 1
@@ -53,7 +53,7 @@ extension Solution {
                      return target
                  }
                  
-                 if abs(sum - target) < abs(result == nil ? Int.max : result! - target ) {
+                 if abs(sum - target) < abs(result - target ) {
                      result = sum
                  }
                  
@@ -67,7 +67,7 @@ extension Solution {
              start += 1
          }
          
-         return result!
+         return result
     }
     
 }
