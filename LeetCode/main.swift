@@ -137,7 +137,7 @@ solution.merge(&arr1, 3, arr2, 3)
 
 //solution.maxmiumScore([1,3,4,5], 4)
 
-solution.numberOfRightTriangles([[0,1,0],[0,1,1],[0,1,0]])
+//solution.numberOfRightTriangles([[0,1,0],[0,1,1],[0,1,0]])
 
 //let str = "Hello, 👋🌍!"
 //
@@ -155,4 +155,7 @@ solution.numberOfRightTriangles([[0,1,0],[0,1,1],[0,1,0]])
 //}
 
 
-SolutionX().threeSumClosest([-1,2,1,-4], 1)
+//SolutionX().threeSumClosest([-1,2,1,-4], 1)
+
+
+solution.minimumAddedInteger([7,2,6,8,7], [7,6,5])
