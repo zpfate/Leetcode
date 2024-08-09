@@ -150,6 +150,7 @@
 		4B3363EB2C6490E40030D483 /* Solution16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution16.swift; sourceTree = "<group>"; };
 		4B3363ED2C6491470030D483 /* 16. 最接近的三数之和.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "16. 最接近的三数之和.md"; sourceTree = "<group>"; };
 		4B3363F12C65A6890030D483 /* Solution3132.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3132.swift; sourceTree = "<group>"; };
+		4B3363F32C65DD1D0030D483 /* 3132. 找出与数组相加的整数  II.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3132. 找出与数组相加的整数  II.md"; sourceTree = "<group>"; };
 		4B37D1902A8CBD63007E6D13 /* Solution74.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution74.swift; sourceTree = "<group>"; };
 		4B50DA202A6FD9B700DB8FB3 /* Solution739.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution739.swift; sourceTree = "<group>"; };
 		4B68FE8E2A97519B009FA727 /* Solution20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution20.swift; sourceTree = "<group>"; };
@@ -446,6 +447,7 @@
 		4B3363F02C65A6750030D483 /* 3132. 找出与数组相加的整数 II */ = {
 			isa = PBXGroup;
 			children = (
+				4B3363F32C65DD1D0030D483 /* 3132. 找出与数组相加的整数  II.md */,
 				4B3363F12C65A6890030D483 /* Solution3132.swift */,
 			);
 			path = "3132. 找出与数组相加的整数 II";

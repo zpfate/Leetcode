@@ -36,23 +36,25 @@ extension Solution {
         let n = sorted2.count
         
         for i in (0...2).reversed() {
+            
             var left = i + 1
             var right = 1
             
             while left < m && right < n {
+                
                 if nums1[left] - nums2[right] == nums1[i] - nums2[0] {
                     right += 1
                 }
                 left += 1
             }
+            
             if right == n {
                 return nums2[0] - nums1[i]
             }
+
         }
+        
         return 0
-        
-        
-        
 //
 //        var dict: [Int: Int] = [Int: Int]()
 //        
