@@ -27,6 +27,7 @@
 		4B3363E92C64673C0030D483 /* SolutionX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3363E82C64673C0030D483 /* SolutionX.swift */; };
 		4B3363EC2C6490E40030D483 /* Solution16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3363EB2C6490E40030D483 /* Solution16.swift */; };
 		4B3363F22C65A6890030D483 /* Solution3132.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3363F12C65A6890030D483 /* Solution3132.swift */; };
+		4B33643A2C69ACB40030D483 /* Solution676.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3364392C69ACB40030D483 /* Solution676.swift */; };
 		4B37D1912A8CBD63007E6D13 /* Solution74.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B37D1902A8CBD63007E6D13 /* Solution74.swift */; };
 		4B50DA212A6FD9B700DB8FB3 /* Solution739.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B50DA202A6FD9B700DB8FB3 /* Solution739.swift */; };
 		4B68FE8F2A97519B009FA727 /* Solution20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B68FE8E2A97519B009FA727 /* Solution20.swift */; };
@@ -151,6 +152,8 @@
 		4B3363ED2C6491470030D483 /* 16. 最接近的三数之和.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "16. 最接近的三数之和.md"; sourceTree = "<group>"; };
 		4B3363F12C65A6890030D483 /* Solution3132.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3132.swift; sourceTree = "<group>"; };
 		4B3363F32C65DD1D0030D483 /* 3132. 找出与数组相加的整数  II.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3132. 找出与数组相加的整数  II.md"; sourceTree = "<group>"; };
+		4B3364392C69ACB40030D483 /* Solution676.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution676.swift; sourceTree = "<group>"; };
+		4B33643B2C69D9F80030D483 /* 676. 实现一个魔法字典.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "676. 实现一个魔法字典.md"; sourceTree = "<group>"; };
 		4B37D1902A8CBD63007E6D13 /* Solution74.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution74.swift; sourceTree = "<group>"; };
 		4B50DA202A6FD9B700DB8FB3 /* Solution739.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution739.swift; sourceTree = "<group>"; };
 		4B68FE8E2A97519B009FA727 /* Solution20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution20.swift; sourceTree = "<group>"; };
@@ -451,6 +454,15 @@
 				4B3363F12C65A6890030D483 /* Solution3132.swift */,
 			);
 			path = "3132. 找出与数组相加的整数 II";
+			sourceTree = "<group>";
+		};
+		4B3364382C69AC9C0030D483 /* 676. 实现一个魔法字典 */ = {
+			isa = PBXGroup;
+			children = (
+				4B33643B2C69D9F80030D483 /* 676. 实现一个魔法字典.md */,
+				4B3364392C69ACB40030D483 /* Solution676.swift */,
+			);
+			path = "676. 实现一个魔法字典";
 			sourceTree = "<group>";
 		};
 		4B37D18F2A8CBD47007E6D13 /* 74.搜索二维矩阵 */ = {
@@ -1042,6 +1054,7 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B3364382C69AC9C0030D483 /* 676. 实现一个魔法字典 */,
 				4B3363F02C65A6750030D483 /* 3132. 找出与数组相加的整数 II */,
 				4B3363EA2C6490D50030D483 /* 16. 最接近的三数之和 */,
 				4B3363E22C6453C90030D483 /* 3131. 找出与数组相加的整数 I */,
@@ -1323,6 +1336,7 @@
 				4B6DC99C2C2A534B008A9C1E /* Solution2732.swift in Sources */,
 				4B6DC9682C17ED20008A9C1E /* Solution34.swift in Sources */,
 				4B6DC9C52C377DB9008A9C1E /* Solution3033.swift in Sources */,
+				4B33643A2C69ACB40030D483 /* Solution676.swift in Sources */,
 				4B8DF7E22C59C572000D20D2 /* Solution3111.swift in Sources */,
 				4BCADB412BEB54ED00BDB948 /* Solution18.swift in Sources */,
 				4B13C7532BF5A2AC0032004B /* Solution509.swift in Sources */,
