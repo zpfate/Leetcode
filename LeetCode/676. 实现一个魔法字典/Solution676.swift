@@ -22,7 +22,6 @@ import Foundation
 
 class MagicDictionary {
 
-    
     private var _dict: [String]?
     
     init() {
