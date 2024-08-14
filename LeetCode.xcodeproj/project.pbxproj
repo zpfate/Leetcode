@@ -29,6 +29,7 @@
 		4B3363F22C65A6890030D483 /* Solution3132.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3363F12C65A6890030D483 /* Solution3132.swift */; };
 		4B33643A2C69ACB40030D483 /* Solution676.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3364392C69ACB40030D483 /* Solution676.swift */; };
 		4B33645A2C6AEE8B0030D483 /* Solution3151.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3364592C6AEE8B0030D483 /* Solution3151.swift */; };
+		4B33649F2C6C416B0030D483 /* Solution3152.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B33649E2C6C416B0030D483 /* Solution3152.swift */; };
 		4B37D1912A8CBD63007E6D13 /* Solution74.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B37D1902A8CBD63007E6D13 /* Solution74.swift */; };
 		4B50DA212A6FD9B700DB8FB3 /* Solution739.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B50DA202A6FD9B700DB8FB3 /* Solution739.swift */; };
 		4B68FE8F2A97519B009FA727 /* Solution20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B68FE8E2A97519B009FA727 /* Solution20.swift */; };
@@ -156,6 +157,9 @@
 		4B3364392C69ACB40030D483 /* Solution676.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution676.swift; sourceTree = "<group>"; };
 		4B33643B2C69D9F80030D483 /* 676. 实现一个魔法字典.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "676. 实现一个魔法字典.md"; sourceTree = "<group>"; };
 		4B3364592C6AEE8B0030D483 /* Solution3151.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3151.swift; sourceTree = "<group>"; };
+		4B33649E2C6C416B0030D483 /* Solution3152.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3152.swift; sourceTree = "<group>"; };
+		4B3364A02C6C54230030D483 /* 3152. 特殊数组 II.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3152. 特殊数组 II.md"; sourceTree = "<group>"; };
+		4B3364A12C6C542A0030D483 /* 3151. 特殊数组 I.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3151. 特殊数组 I.md"; sourceTree = "<group>"; };
 		4B37D1902A8CBD63007E6D13 /* Solution74.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution74.swift; sourceTree = "<group>"; };
 		4B50DA202A6FD9B700DB8FB3 /* Solution739.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution739.swift; sourceTree = "<group>"; };
 		4B68FE8E2A97519B009FA727 /* Solution20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution20.swift; sourceTree = "<group>"; };
@@ -470,9 +474,19 @@
 		4B3364582C6AEE790030D483 /* 3151. 特殊数组 I */ = {
 			isa = PBXGroup;
 			children = (
+				4B3364A12C6C542A0030D483 /* 3151. 特殊数组 I.md */,
 				4B3364592C6AEE8B0030D483 /* Solution3151.swift */,
 			);
 			path = "3151. 特殊数组 I";
+			sourceTree = "<group>";
+		};
+		4B33649D2C6C41500030D483 /* 3152. 特殊数组 II */ = {
+			isa = PBXGroup;
+			children = (
+				4B3364A02C6C54230030D483 /* 3152. 特殊数组 II.md */,
+				4B33649E2C6C416B0030D483 /* Solution3152.swift */,
+			);
+			path = "3152. 特殊数组 II";
 			sourceTree = "<group>";
 		};
 		4B37D18F2A8CBD47007E6D13 /* 74.搜索二维矩阵 */ = {
@@ -1064,6 +1078,7 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B33649D2C6C41500030D483 /* 3152. 特殊数组 II */,
 				4B3364582C6AEE790030D483 /* 3151. 特殊数组 I */,
 				4B3364382C69AC9C0030D483 /* 676. 实现一个魔法字典 */,
 				4B3363F02C65A6750030D483 /* 3132. 找出与数组相加的整数 II */,
@@ -1320,6 +1335,7 @@
 				4BCADB3D2BE8B6CB00BDB948 /* Sort.swift in Sources */,
 				4B6DC9E22C44F561008A9C1E /* Solution721.swift in Sources */,
 				4B8DF7B52C4E3EE9000D20D2 /* Solution2101.swift in Sources */,
+				4B33649F2C6C416B0030D483 /* Solution3152.swift in Sources */,
 				4BCD93F12AA9D84200FBA5B3 /* Solution206.swift in Sources */,
 				4B6DC9A82C2D01A1008A9C1E /* Solution2734.swift in Sources */,
 				4B8DF7D62C571EC7000D20D2 /* Solution682.swift in Sources */,

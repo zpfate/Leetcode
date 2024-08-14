@@ -157,9 +157,10 @@ solution.merge(&arr1, 3, arr2, 3)
 
 //SolutionX().threeSumClosest([-1,2,1,-4], 1)
 
+//
+//solution.minimumAddedInteger([7,2,6,8,7], [7,6,5])
+//
+//print("isArray:\(solution.isArraySpecial([3, -3]))")
 
-solution.minimumAddedInteger([7,2,6,8,7], [7,6,5])
 
-print("isArray:\(solution.isArraySpecial([3, -3]))")
-
-
+print("isArray2:\(solution.isArraySpecial([4,3,1,6], [[0,2],[2,3]]))")
