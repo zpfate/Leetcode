@@ -21,7 +21,68 @@ import Foundation
 
 extension Solution {
     
+    // 前缀和
     func isArraySpecial(_ nums: [Int], _ queries: [[Int]]) -> [Bool] {
+        
+        let n = nums.count
+        var sum = [Int](repeating: 0, count: n)
+        
+        for i in 1..<n {
+            sum[i] = sum[i - 1]
+            if ((nums[i - 1] ^ nums[i]) & 1) == 0{
+                sum[i] += 1
+            }
+        }
+        
+        let m = queries.count
+        var results = [Bool](repeating: false, count: m)
+        
+        for i in 0..<m {
+            
+            let q = queries[i]
+            if sum[q[0]] == sum[q[1]] {
+                results[i] = true
+            }
+        }
+
+        return results
+        
+    }
+    
+    func isArraySpecialII(_ nums: [Int], _ queries: [[Int]]) -> [Bool] {
+        
+        let len = queries.count
+        if nums.count < 2 {
+            return [Bool](repeating: true, count: len)
+        }
+
+        var results = [Bool]()
+        
+        for i in 0..<len {
+            
+            let indexes = queries[i]
+            if indexes[0] == indexes[1] {
+                results.append(true)
+                continue
+            }
+            
+            for j in (indexes[0] + 1)...indexes[1] {
+                
+                if abs(nums[j] % 2) == abs(nums[j - 1] % 2) {
+                    results.append(false)
+                    break
+                }
+            }
+            
+            if results.count < (i + 1) {
+                results.append(true)
+            }
+        }
+        return results
+    }
+    
+    
+    func isArraySpecialIII(_ nums: [Int], _ queries: [[Int]]) -> [Bool] {
         
         let len = queries.count
         
@@ -67,39 +128,6 @@ extension Solution {
         }
         return results
     }
-    
-    func isArraySpecialII(_ nums: [Int], _ queries: [[Int]]) -> [Bool] {
-        
-        let len = queries.count
-        if nums.count < 2 {
-            return [Bool](repeating: true, count: len)
-        }
-
-        var results = [Bool]()
-        
-        for i in 0..<len {
-            
-            let indexes = queries[i]
-            if indexes[0] == indexes[1] {
-                results.append(true)
-                continue
-            }
-            
-            for j in (indexes[0] + 1)...indexes[1] {
-                
-                if abs(nums[j] % 2) == abs(nums[j - 1] % 2) {
-                    results.append(false)
-                    break
-                }
-            }
-            
-            if results.count < (i + 1) {
-                results.append(true)
-            }
-        }
-        return results
-    }
-    
 
     
 }

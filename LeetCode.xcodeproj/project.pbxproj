@@ -99,6 +99,7 @@
 		4BCD93F12AA9D84200FBA5B3 /* Solution206.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCD93F02AA9D84200FBA5B3 /* Solution206.swift */; };
 		4BCD942D2AB3139B00FBA5B3 /* Solution61.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCD942C2AB3139B00FBA5B3 /* Solution61.swift */; };
 		4BD1827E2A690F0700333B8A /* Solution88.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD1827D2A690F0700333B8A /* Solution88.swift */; };
+		4BEC12452C6D961F0070B094 /* Solution3148.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC12442C6D961F0070B094 /* Solution3148.swift */; };
 		5B36B20428C1902C00E14D15 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36B20328C1902C00E14D15 /* main.swift */; };
 		5B36B20C28C1911700E14D15 /* Solution1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36B20B28C1911700E14D15 /* Solution1.swift */; };
 		5B36B20F28C1917C00E14D15 /* Solution2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36B20E28C1917C00E14D15 /* Solution2.swift */; };
@@ -276,6 +277,7 @@
 		4BCD93F02AA9D84200FBA5B3 /* Solution206.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution206.swift; sourceTree = "<group>"; };
 		4BCD942C2AB3139B00FBA5B3 /* Solution61.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution61.swift; sourceTree = "<group>"; };
 		4BD1827D2A690F0700333B8A /* Solution88.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution88.swift; sourceTree = "<group>"; };
+		4BEC12442C6D961F0070B094 /* Solution3148.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3148.swift; sourceTree = "<group>"; };
 		5B36B20028C1902C00E14D15 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B36B20328C1902C00E14D15 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5B36B20B28C1911700E14D15 /* Solution1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution1.swift; sourceTree = "<group>"; };
@@ -1059,6 +1061,14 @@
 			path = "88.合并两个有序数组";
 			sourceTree = "<group>";
 		};
+		4BEC12432C6D96040070B094 /* 3148. 矩阵中的最大得分 */ = {
+			isa = PBXGroup;
+			children = (
+				4BEC12442C6D961F0070B094 /* Solution3148.swift */,
+			);
+			path = "3148. 矩阵中的最大得分";
+			sourceTree = "<group>";
+		};
 		5B36B1F728C1902C00E14D15 = {
 			isa = PBXGroup;
 			children = (
@@ -1078,6 +1088,7 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4BEC12432C6D96040070B094 /* 3148. 矩阵中的最大得分 */,
 				4B33649D2C6C41500030D483 /* 3152. 特殊数组 II */,
 				4B3364582C6AEE790030D483 /* 3151. 特殊数组 I */,
 				4B3364382C69AC9C0030D483 /* 676. 实现一个魔法字典 */,
@@ -1358,6 +1369,7 @@
 				4BCADB382BE8AED000BDB948 /* Solution.swift in Sources */,
 				4B8DF7BE2C50F8A0000D20D2 /* Solution2766.swift in Sources */,
 				5BE7DF972929BEA300FFFB3B /* Solution9.swift in Sources */,
+				4BEC12452C6D961F0070B094 /* Solution3148.swift in Sources */,
 				4B6DC9B42C338EB8008A9C1E /* Solution3115.swift in Sources */,
 				4B8DF7CF2C532CFB000D20D2 /* Solution2740.swift in Sources */,
 				4B6DC99C2C2A534B008A9C1E /* Solution2732.swift in Sources */,
