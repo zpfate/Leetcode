@@ -21,6 +21,8 @@
 		4B13C75C2BF5E1C30032004B /* Solution198.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B13C75B2BF5E1C30032004B /* Solution198.swift */; };
 		4B13C75F2BFDC8DC0032004B /* Solution300.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B13C75E2BFDC8DC0032004B /* Solution300.swift */; };
 		4B13C7622BFDD05D0032004B /* Solution150.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B13C7612BFDD05D0032004B /* Solution150.swift */; };
+		4B2740F12C76C799002A67E6 /* Solution3133.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2740F02C76C799002A67E6 /* Solution3133.swift */; };
+		4B2740F52C797B32002A67E6 /* Solution3146.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2740F42C797B32002A67E6 /* Solution3146.swift */; };
 		4B3363D32C621C7E0030D483 /* Solution236.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3363D22C621C7E0030D483 /* Solution236.swift */; };
 		4B3363D82C623CE00030D483 /* Solution98.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3363D72C623CE00030D483 /* Solution98.swift */; };
 		4B3363E62C6453ED0030D483 /* Solution3131.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3363E52C6453ED0030D483 /* Solution3131.swift */; };
@@ -82,6 +84,7 @@
 		4B8DF7DA2C5872FB000D20D2 /* Solution2961.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7D92C5872FB000D20D2 /* Solution2961.swift */; };
 		4B8DF7DE2C58938B000D20D2 /* Solution50.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7DD2C58938B000D20D2 /* Solution50.swift */; };
 		4B8DF7E22C59C572000D20D2 /* Solution3111.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7E12C59C572000D20D2 /* Solution3111.swift */; };
+		4B9FE9DA2C7C768600835681 /* Solution690.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FE9D92C7C768600835681 /* Solution690.swift */; };
 		4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FC92AA02E36008F33BF /* Solution876.swift */; };
 		4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCC2AA0A37D008F33BF /* Solution141.swift */; };
 		4BA19FD02AA0AA39008F33BF /* Solution19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCF2AA0AA39008F33BF /* Solution19.swift */; };
@@ -143,6 +146,10 @@
 		4B13C75B2BF5E1C30032004B /* Solution198.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution198.swift; sourceTree = "<group>"; };
 		4B13C75E2BFDC8DC0032004B /* Solution300.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution300.swift; sourceTree = "<group>"; };
 		4B13C7612BFDD05D0032004B /* Solution150.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution150.swift; sourceTree = "<group>"; };
+		4B2740F02C76C799002A67E6 /* Solution3133.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3133.swift; sourceTree = "<group>"; };
+		4B2740F22C797B12002A67E6 /* 3133. 数组最后一个元素的最小值.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3133. 数组最后一个元素的最小值.md"; sourceTree = "<group>"; };
+		4B2740F42C797B32002A67E6 /* Solution3146.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3146.swift; sourceTree = "<group>"; };
+		4B2740F62C797D98002A67E6 /* 3146. 两个字符串的排列差.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3146. 两个字符串的排列差.md"; sourceTree = "<group>"; };
 		4B3363D22C621C7E0030D483 /* Solution236.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution236.swift; sourceTree = "<group>"; };
 		4B3363D42C621CD60030D483 /* 236. 二叉树的最近公共祖先.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "236. 二叉树的最近公共祖先.md"; sourceTree = "<group>"; };
 		4B3363D52C623CA90030D483 /* 3129. 找出所有稳定的二进制数组 I.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3129. 找出所有稳定的二进制数组 I.md"; sourceTree = "<group>"; };
@@ -257,6 +264,8 @@
 		4B8DF7DD2C58938B000D20D2 /* Solution50.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution50.swift; sourceTree = "<group>"; };
 		4B8DF7DF2C58954E000D20D2 /* 50. Pow(x, n).md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "50. Pow(x, n).md"; sourceTree = "<group>"; };
 		4B8DF7E12C59C572000D20D2 /* Solution3111.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3111.swift; sourceTree = "<group>"; };
+		4B9FE9D92C7C768600835681 /* Solution690.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution690.swift; sourceTree = "<group>"; };
+		4B9FE9DB2C7C803200835681 /* 690. 员工的重要性.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "690. 员工的重要性.md"; sourceTree = "<group>"; };
 		4BA19FC92AA02E36008F33BF /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
 		4BA19FCC2AA0A37D008F33BF /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
 		4BA19FCF2AA0AA39008F33BF /* Solution19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution19.swift; sourceTree = "<group>"; };
@@ -417,6 +426,24 @@
 				4B13C7612BFDD05D0032004B /* Solution150.swift */,
 			);
 			path = "150.逆波兰表达式求值";
+			sourceTree = "<group>";
+		};
+		4B2740EF2C76C785002A67E6 /* 3133. 数组最后一个元素的最小值 */ = {
+			isa = PBXGroup;
+			children = (
+				4B2740F22C797B12002A67E6 /* 3133. 数组最后一个元素的最小值.md */,
+				4B2740F02C76C799002A67E6 /* Solution3133.swift */,
+			);
+			path = "3133. 数组最后一个元素的最小值";
+			sourceTree = "<group>";
+		};
+		4B2740F32C797B23002A67E6 /* 3146. 两个字符串的排列差 */ = {
+			isa = PBXGroup;
+			children = (
+				4B2740F62C797D98002A67E6 /* 3146. 两个字符串的排列差.md */,
+				4B2740F42C797B32002A67E6 /* Solution3146.swift */,
+			);
+			path = "3146. 两个字符串的排列差";
 			sourceTree = "<group>";
 		};
 		4B3363D12C621C6D0030D483 /* 236. 二叉树的最近公共祖先 */ = {
@@ -930,6 +957,15 @@
 			path = "3111. 覆盖所有点的最少矩形数目 ";
 			sourceTree = "<group>";
 		};
+		4B9FE9D82C7C767700835681 /* 690. 员工的重要性 */ = {
+			isa = PBXGroup;
+			children = (
+				4B9FE9DB2C7C803200835681 /* 690. 员工的重要性.md */,
+				4B9FE9D92C7C768600835681 /* Solution690.swift */,
+			);
+			path = "690. 员工的重要性";
+			sourceTree = "<group>";
+		};
 		4BA19FC82AA02E0D008F33BF /* 876.链表中的中间结点 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1088,6 +1124,9 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B9FE9D82C7C767700835681 /* 690. 员工的重要性 */,
+				4B2740F32C797B23002A67E6 /* 3146. 两个字符串的排列差 */,
+				4B2740EF2C76C785002A67E6 /* 3133. 数组最后一个元素的最小值 */,
 				4BEC12432C6D96040070B094 /* 3148. 矩阵中的最大得分 */,
 				4B33649D2C6C41500030D483 /* 3152. 特殊数组 II */,
 				4B3364582C6AEE790030D483 /* 3151. 特殊数组 I */,
@@ -1364,6 +1403,7 @@
 				4BCADB442BEC99ED00BDB948 /* Solution238.swift in Sources */,
 				4B8DF7C72C51E4EB000D20D2 /* Solution78.swift in Sources */,
 				4B13C7502BF48CD00032004B /* Solution496.swift in Sources */,
+				4B9FE9DA2C7C768600835681 /* Solution690.swift in Sources */,
 				4B8DF7B72C4F4CCB000D20D2 /* Queue.swift in Sources */,
 				5B36B20C28C1911700E14D15 /* Solution1.swift in Sources */,
 				4BCADB382BE8AED000BDB948 /* Solution.swift in Sources */,
@@ -1379,6 +1419,7 @@
 				4B8DF7E22C59C572000D20D2 /* Solution3111.swift in Sources */,
 				4BCADB412BEB54ED00BDB948 /* Solution18.swift in Sources */,
 				4B13C7532BF5A2AC0032004B /* Solution509.swift in Sources */,
+				4B2740F12C76C799002A67E6 /* Solution3133.swift in Sources */,
 				4BCADB502BF1A71200BDB948 /* Solution232.swift in Sources */,
 				4B68FE952A9758C0009FA727 /* Solution69.swift in Sources */,
 				4B8DF7A72C4A6548000D20D2 /* Solution144.swift in Sources */,
@@ -1388,6 +1429,7 @@
 				4B13C7622BFDD05D0032004B /* Solution150.swift in Sources */,
 				5B56928A292784F000DB792C /* Common.swift in Sources */,
 				4BCD942D2AB3139B00FBA5B3 /* Solution61.swift in Sources */,
+				4B2740F52C797B32002A67E6 /* Solution3146.swift in Sources */,
 				4B13C7562BF5A8590032004B /* Solution1137.swift in Sources */,
 				4B6DC9CE2C3B885D008A9C1E /* Solution724.swift in Sources */,
 				5BE7DF9A292A567C00FFFB3B /* Solution13.swift in Sources */,
