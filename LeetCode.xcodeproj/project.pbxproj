@@ -85,6 +85,8 @@
 		4B8DF7DE2C58938B000D20D2 /* Solution50.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7DD2C58938B000D20D2 /* Solution50.swift */; };
 		4B8DF7E22C59C572000D20D2 /* Solution3111.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7E12C59C572000D20D2 /* Solution3111.swift */; };
 		4B9FE9DA2C7C768600835681 /* Solution690.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FE9D92C7C768600835681 /* Solution690.swift */; };
+		4B9FE9DE2C7EB1B200835681 /* Solution3144.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FE9DD2C7EB1B200835681 /* Solution3144.swift */; };
+		4B9FEA092C80032600835681 /* Solution3142.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FEA082C80032600835681 /* Solution3142.swift */; };
 		4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FC92AA02E36008F33BF /* Solution876.swift */; };
 		4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCC2AA0A37D008F33BF /* Solution141.swift */; };
 		4BA19FD02AA0AA39008F33BF /* Solution19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCF2AA0AA39008F33BF /* Solution19.swift */; };
@@ -266,6 +268,9 @@
 		4B8DF7E12C59C572000D20D2 /* Solution3111.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3111.swift; sourceTree = "<group>"; };
 		4B9FE9D92C7C768600835681 /* Solution690.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution690.swift; sourceTree = "<group>"; };
 		4B9FE9DB2C7C803200835681 /* 690. 员工的重要性.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "690. 员工的重要性.md"; sourceTree = "<group>"; };
+		4B9FE9DD2C7EB1B200835681 /* Solution3144.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3144.swift; sourceTree = "<group>"; };
+		4B9FEA082C80032600835681 /* Solution3142.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3142.swift; sourceTree = "<group>"; };
+		4B9FEA0A2C8040F200835681 /* 3142. 判断矩阵是否满足条件.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3142. 判断矩阵是否满足条件.md"; sourceTree = "<group>"; };
 		4BA19FC92AA02E36008F33BF /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
 		4BA19FCC2AA0A37D008F33BF /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
 		4BA19FCF2AA0AA39008F33BF /* Solution19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution19.swift; sourceTree = "<group>"; };
@@ -966,6 +971,23 @@
 			path = "690. 员工的重要性";
 			sourceTree = "<group>";
 		};
+		4B9FE9DC2C7EB1A200835681 /* 3144. 分割字符频率相等的最少子字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				4B9FE9DD2C7EB1B200835681 /* Solution3144.swift */,
+			);
+			path = "3144. 分割字符频率相等的最少子字符串";
+			sourceTree = "<group>";
+		};
+		4B9FEA072C80030F00835681 /* 3142. 判断矩阵是否满足条件 */ = {
+			isa = PBXGroup;
+			children = (
+				4B9FEA0A2C8040F200835681 /* 3142. 判断矩阵是否满足条件.md */,
+				4B9FEA082C80032600835681 /* Solution3142.swift */,
+			);
+			path = "3142. 判断矩阵是否满足条件";
+			sourceTree = "<group>";
+		};
 		4BA19FC82AA02E0D008F33BF /* 876.链表中的中间结点 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1124,6 +1146,8 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B9FEA072C80030F00835681 /* 3142. 判断矩阵是否满足条件 */,
+				4B9FE9DC2C7EB1A200835681 /* 3144. 分割字符频率相等的最少子字符串 */,
 				4B9FE9D82C7C767700835681 /* 690. 员工的重要性 */,
 				4B2740F32C797B23002A67E6 /* 3146. 两个字符串的排列差 */,
 				4B2740EF2C76C785002A67E6 /* 3133. 数组最后一个元素的最小值 */,
@@ -1381,6 +1405,7 @@
 				4B6DC9D62C3E162E008A9C1E /* Solution2970.swift in Sources */,
 				4BCADB4A2BEF58EA00BDB948 /* Solution1588.swift in Sources */,
 				5B5692882927847900DB792C /* InsertSort.swift in Sources */,
+				4B9FEA092C80032600835681 /* Solution3142.swift in Sources */,
 				4B6DC9A02C2A92E3008A9C1E /* Solution200.swift in Sources */,
 				4BCADB3D2BE8B6CB00BDB948 /* Sort.swift in Sources */,
 				4B6DC9E22C44F561008A9C1E /* Solution721.swift in Sources */,
@@ -1442,6 +1467,7 @@
 				4B6DC9B02C323E0D008A9C1E /* Solution226.swift in Sources */,
 				4B0262912C084E4500AE2B3B /* Solution704.swift in Sources */,
 				4B8DF7AB2C4DE29D000D20D2 /* Solution94.swift in Sources */,
+				4B9FE9DE2C7EB1B200835681 /* Solution3144.swift in Sources */,
 				4B6DC9C22C3690FB008A9C1E /* Solution111.swift in Sources */,
 				4B37D1912A8CBD63007E6D13 /* Solution74.swift in Sources */,
 				4B8DF7DE2C58938B000D20D2 /* Solution50.swift in Sources */,

@@ -19,10 +19,7 @@ import Foundation
  employees[i].importance 是第 i 个员工的重要度。
  employees[i].subordinates 是第 i 名员工的直接下属的 ID 列表。
  给定一个整数 id 表示一个员工的 ID，返回这个员工和他所有下属的重要度的 总和。
-
-
  */
-
 
 
 extension Solution {
@@ -65,12 +62,7 @@ extension Solution {
 //        }
 //        return res
 //    }
-    
-
-    
 }
-
-
 
 public class Employee {
  public var id: Int
