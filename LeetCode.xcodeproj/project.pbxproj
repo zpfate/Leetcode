@@ -87,6 +87,8 @@
 		4B9FE9DA2C7C768600835681 /* Solution690.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FE9D92C7C768600835681 /* Solution690.swift */; };
 		4B9FE9DE2C7EB1B200835681 /* Solution3144.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FE9DD2C7EB1B200835681 /* Solution3144.swift */; };
 		4B9FEA092C80032600835681 /* Solution3142.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FEA082C80032600835681 /* Solution3142.swift */; };
+		4B9FEA112C8155C400835681 /* Solution3153.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FEA102C8155C400835681 /* Solution3153.swift */; };
+		4B9FEA142C85B79100835681 /* Solution2024.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FEA132C85B79100835681 /* Solution2024.swift */; };
 		4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FC92AA02E36008F33BF /* Solution876.swift */; };
 		4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCC2AA0A37D008F33BF /* Solution141.swift */; };
 		4BA19FD02AA0AA39008F33BF /* Solution19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCF2AA0AA39008F33BF /* Solution19.swift */; };
@@ -271,6 +273,9 @@
 		4B9FE9DD2C7EB1B200835681 /* Solution3144.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3144.swift; sourceTree = "<group>"; };
 		4B9FEA082C80032600835681 /* Solution3142.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3142.swift; sourceTree = "<group>"; };
 		4B9FEA0A2C8040F200835681 /* 3142. 判断矩阵是否满足条件.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3142. 判断矩阵是否满足条件.md"; sourceTree = "<group>"; };
+		4B9FEA102C8155C400835681 /* Solution3153.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3153.swift; sourceTree = "<group>"; };
+		4B9FEA132C85B79100835681 /* Solution2024.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2024.swift; sourceTree = "<group>"; };
+		4B9FEA152C85CC8E00835681 /* 2024. 考试的最大困扰度.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "2024. 考试的最大困扰度.md"; sourceTree = "<group>"; };
 		4BA19FC92AA02E36008F33BF /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
 		4BA19FCC2AA0A37D008F33BF /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
 		4BA19FCF2AA0AA39008F33BF /* Solution19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution19.swift; sourceTree = "<group>"; };
@@ -988,6 +993,23 @@
 			path = "3142. 判断矩阵是否满足条件";
 			sourceTree = "<group>";
 		};
+		4B9FEA0F2C8155A300835681 /* 3153. 所有数对中数位不同之和 */ = {
+			isa = PBXGroup;
+			children = (
+				4B9FEA102C8155C400835681 /* Solution3153.swift */,
+			);
+			path = "3153. 所有数对中数位不同之和";
+			sourceTree = "<group>";
+		};
+		4B9FEA122C85B78200835681 /* 2024. 考试的最大困扰度 */ = {
+			isa = PBXGroup;
+			children = (
+				4B9FEA152C85CC8E00835681 /* 2024. 考试的最大困扰度.md */,
+				4B9FEA132C85B79100835681 /* Solution2024.swift */,
+			);
+			path = "2024. 考试的最大困扰度";
+			sourceTree = "<group>";
+		};
 		4BA19FC82AA02E0D008F33BF /* 876.链表中的中间结点 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1146,6 +1168,8 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B9FEA122C85B78200835681 /* 2024. 考试的最大困扰度 */,
+				4B9FEA0F2C8155A300835681 /* 3153. 所有数对中数位不同之和 */,
 				4B9FEA072C80030F00835681 /* 3142. 判断矩阵是否满足条件 */,
 				4B9FE9DC2C7EB1A200835681 /* 3144. 分割字符频率相等的最少子字符串 */,
 				4B9FE9D82C7C767700835681 /* 690. 员工的重要性 */,
@@ -1435,6 +1459,7 @@
 				4B8DF7BE2C50F8A0000D20D2 /* Solution2766.swift in Sources */,
 				5BE7DF972929BEA300FFFB3B /* Solution9.swift in Sources */,
 				4BEC12452C6D961F0070B094 /* Solution3148.swift in Sources */,
+				4B9FEA142C85B79100835681 /* Solution2024.swift in Sources */,
 				4B6DC9B42C338EB8008A9C1E /* Solution3115.swift in Sources */,
 				4B8DF7CF2C532CFB000D20D2 /* Solution2740.swift in Sources */,
 				4B6DC99C2C2A534B008A9C1E /* Solution2732.swift in Sources */,
@@ -1498,6 +1523,7 @@
 				4B6DC9702C1977E3008A9C1E /* Solution62.swift in Sources */,
 				4BAD541D2C5B1FC400C8A19C /* SolutionLCP40.swift in Sources */,
 				4BCADB4D2BF1A6B900BDB948 /* Solution42.swift in Sources */,
+				4B9FEA112C8155C400835681 /* Solution3153.swift in Sources */,
 				4B8DF7B22C4E2E52000D20D2 /* DepthFirstSearch.swift in Sources */,
 				4B6DC9AC2C3238E9008A9C1E /* Solution104.swift in Sources */,
 				4B0303D62C61ED710054B123 /* Solution3129.swift in Sources */,
