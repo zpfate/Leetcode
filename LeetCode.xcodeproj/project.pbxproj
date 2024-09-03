@@ -89,6 +89,7 @@
 		4B9FEA092C80032600835681 /* Solution3142.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FEA082C80032600835681 /* Solution3142.swift */; };
 		4B9FEA112C8155C400835681 /* Solution3153.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FEA102C8155C400835681 /* Solution3153.swift */; };
 		4B9FEA142C85B79100835681 /* Solution2024.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FEA132C85B79100835681 /* Solution2024.swift */; };
+		4B9FEA182C86966600835681 /* Solution2798.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FEA172C86966600835681 /* Solution2798.swift */; };
 		4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FC92AA02E36008F33BF /* Solution876.swift */; };
 		4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCC2AA0A37D008F33BF /* Solution141.swift */; };
 		4BA19FD02AA0AA39008F33BF /* Solution19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCF2AA0AA39008F33BF /* Solution19.swift */; };
@@ -276,6 +277,8 @@
 		4B9FEA102C8155C400835681 /* Solution3153.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3153.swift; sourceTree = "<group>"; };
 		4B9FEA132C85B79100835681 /* Solution2024.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2024.swift; sourceTree = "<group>"; };
 		4B9FEA152C85CC8E00835681 /* 2024. 考试的最大困扰度.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "2024. 考试的最大困扰度.md"; sourceTree = "<group>"; };
+		4B9FEA172C86966600835681 /* Solution2798.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2798.swift; sourceTree = "<group>"; };
+		4B9FEA192C86A17300835681 /* 2708. 一个小组的最大实力值.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "2708. 一个小组的最大实力值.md"; sourceTree = "<group>"; };
 		4BA19FC92AA02E36008F33BF /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
 		4BA19FCC2AA0A37D008F33BF /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
 		4BA19FCF2AA0AA39008F33BF /* Solution19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution19.swift; sourceTree = "<group>"; };
@@ -1010,6 +1013,15 @@
 			path = "2024. 考试的最大困扰度";
 			sourceTree = "<group>";
 		};
+		4B9FEA162C86964400835681 /* 2708. 一个小组的最大实力值 */ = {
+			isa = PBXGroup;
+			children = (
+				4B9FEA192C86A17300835681 /* 2708. 一个小组的最大实力值.md */,
+				4B9FEA172C86966600835681 /* Solution2798.swift */,
+			);
+			path = "2708. 一个小组的最大实力值";
+			sourceTree = "<group>";
+		};
 		4BA19FC82AA02E0D008F33BF /* 876.链表中的中间结点 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1168,6 +1180,7 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B9FEA162C86964400835681 /* 2708. 一个小组的最大实力值 */,
 				4B9FEA122C85B78200835681 /* 2024. 考试的最大困扰度 */,
 				4B9FEA0F2C8155A300835681 /* 3153. 所有数对中数位不同之和 */,
 				4B9FEA072C80030F00835681 /* 3142. 判断矩阵是否满足条件 */,
@@ -1428,6 +1441,7 @@
 				4B8DF7AE2C4DE4EB000D20D2 /* Solution145.swift in Sources */,
 				4B6DC9D62C3E162E008A9C1E /* Solution2970.swift in Sources */,
 				4BCADB4A2BEF58EA00BDB948 /* Solution1588.swift in Sources */,
+				4B9FEA182C86966600835681 /* Solution2798.swift in Sources */,
 				5B5692882927847900DB792C /* InsertSort.swift in Sources */,
 				4B9FEA092C80032600835681 /* Solution3142.swift in Sources */,
 				4B6DC9A02C2A92E3008A9C1E /* Solution200.swift in Sources */,
