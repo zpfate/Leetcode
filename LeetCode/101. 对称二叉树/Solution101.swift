@@ -24,7 +24,7 @@ extension Solution {
         return isSymmetricTree(root?.left, root?.right)
     }
     
-    func isSymmetricTree(_ left: TreeNode?, _ right: TreeNode?) -> Bool {
+    private func isSymmetricTree(_ left: TreeNode?, _ right: TreeNode?) -> Bool {
         
         let isEqual = left?.val == right?.val
 

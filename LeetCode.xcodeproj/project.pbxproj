@@ -92,6 +92,7 @@
 		4B9FEA182C86966600835681 /* Solution2798.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FEA172C86966600835681 /* Solution2798.swift */; };
 		4B9FEA1C2C88239F00835681 /* Solution2860.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FEA1B2C88239F00835681 /* Solution2860.swift */; };
 		4B9FEA1F2C897D3E00835681 /* Solution3174.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FEA1E2C897D3E00835681 /* Solution3174.swift */; };
+		4B9FEA232C8E7E9400835681 /* Solution2181.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9FEA222C8E7E9400835681 /* Solution2181.swift */; };
 		4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FC92AA02E36008F33BF /* Solution876.swift */; };
 		4BA19FCD2AA0A37D008F33BF /* Solution141.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCC2AA0A37D008F33BF /* Solution141.swift */; };
 		4BA19FD02AA0AA39008F33BF /* Solution19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCF2AA0AA39008F33BF /* Solution19.swift */; };
@@ -284,6 +285,8 @@
 		4B9FEA1B2C88239F00835681 /* Solution2860.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2860.swift; sourceTree = "<group>"; };
 		4B9FEA1E2C897D3E00835681 /* Solution3174.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3174.swift; sourceTree = "<group>"; };
 		4B9FEA202C898D7F00835681 /* 3174. 清除数字.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3174. 清除数字.md"; sourceTree = "<group>"; };
+		4B9FEA222C8E7E9400835681 /* Solution2181.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2181.swift; sourceTree = "<group>"; };
+		4B9FEA242C8E846700835681 /* 2181. 合并零之间的节点.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "2181. 合并零之间的节点.md"; sourceTree = "<group>"; };
 		4BA19FC92AA02E36008F33BF /* Solution876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution876.swift; sourceTree = "<group>"; };
 		4BA19FCC2AA0A37D008F33BF /* Solution141.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution141.swift; sourceTree = "<group>"; };
 		4BA19FCF2AA0AA39008F33BF /* Solution19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution19.swift; sourceTree = "<group>"; };
@@ -1044,6 +1047,15 @@
 			path = "3174. 清除数字";
 			sourceTree = "<group>";
 		};
+		4B9FEA212C8E7E8100835681 /* 2181. 合并零之间的节点 */ = {
+			isa = PBXGroup;
+			children = (
+				4B9FEA242C8E846700835681 /* 2181. 合并零之间的节点.md */,
+				4B9FEA222C8E7E9400835681 /* Solution2181.swift */,
+			);
+			path = "2181. 合并零之间的节点";
+			sourceTree = "<group>";
+		};
 		4BA19FC82AA02E0D008F33BF /* 876.链表中的中间结点 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1202,6 +1214,7 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B9FEA212C8E7E8100835681 /* 2181. 合并零之间的节点 */,
 				4B9FEA1D2C897D2C00835681 /* 3174. 清除数字 */,
 				4B9FEA1A2C88238800835681 /* 2860. 让所有学生保持开心的分组方法数2860. 让所有学生保持开心的分组方法数 */,
 				4B9FEA162C86964400835681 /* 2708. 一个小组的最大实力值 */,
@@ -1484,6 +1497,7 @@
 				4B6DC96E2C196EB3008A9C1E /* Solution153.swift in Sources */,
 				4B8DF7D32C5492F2000D20D2 /* Solution3106.swift in Sources */,
 				4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */,
+				4B9FEA232C8E7E9400835681 /* Solution2181.swift in Sources */,
 				4B8DF7A32C49F63A000D20D2 /* Solution3096.swift in Sources */,
 				4B6DC98B2C255FAB008A9C1E /* SolutionLCP61.swift in Sources */,
 				4B3363F22C65A6890030D483 /* Solution3132.swift in Sources */,
