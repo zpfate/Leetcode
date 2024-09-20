@@ -20,7 +20,28 @@ import Foundation
 
 extension Solution {
     
+    
+    // 寻找k左边的 nums[i] - nums[j]的最大值
     func maximumTripletValue(_ nums: [Int]) -> Int {
+    
+        if nums.count < 3 {
+            return 0
+        }
+        
+        var preMax = 0, maxDiff = 0, res = 0
+        
+        for num in nums {
+            res = max(res, maxDiff * num)
+            maxDiff = max(maxDiff, preMax - num)
+            preMax = max(preMax, num)
+        }
+        return res
+    }
+    
+    
+    
+    // 暴力
+    func maximumTripletValueII(_ nums: [Int]) -> Int {
         
         if nums.count < 3 {
             return 0
@@ -40,4 +61,5 @@ extension Solution {
         }
         return maxValue
     }
+    
 }

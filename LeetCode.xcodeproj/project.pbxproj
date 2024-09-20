@@ -156,6 +156,7 @@
 		4B0382932C9522EE0017A382 /* Snolutio2390.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snolutio2390.swift; sourceTree = "<group>"; };
 		4B0382952C9528540017A382 /* 2390. 从字符串中移除星号.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "2390. 从字符串中移除星号.md"; sourceTree = "<group>"; };
 		4B0382972C9D466D0017A382 /* Solution2873.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2873.swift; sourceTree = "<group>"; };
+		4B0382992C9D50390017A382 /* 2873. 有序三元组中的最大值 I.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "2873. 有序三元组中的最大值 I.md"; sourceTree = "<group>"; };
 		4B13C74F2BF48CD00032004B /* Solution496.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution496.swift; sourceTree = "<group>"; };
 		4B13C7522BF5A2AC0032004B /* Solution509.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution509.swift; sourceTree = "<group>"; };
 		4B13C7552BF5A8590032004B /* Solution1137.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution1137.swift; sourceTree = "<group>"; };
@@ -424,6 +425,7 @@
 		4B0382962C9D46570017A382 /* 2873. 有序三元组中的最大值 I */ = {
 			isa = PBXGroup;
 			children = (
+				4B0382992C9D50390017A382 /* 2873. 有序三元组中的最大值 I.md */,
 				4B0382972C9D466D0017A382 /* Solution2873.swift */,
 			);
 			path = "2873. 有序三元组中的最大值 I";
