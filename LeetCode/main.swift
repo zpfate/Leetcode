@@ -166,3 +166,5 @@ solution.merge(&arr1, 3, arr2, 3)
 print("isArray2:\(solution.isArraySpecial([4,3,1,6], [[0,2],[2,3]]))")
 
 solution.satisfiesConditions([[1],[2],[3]])
+
+solution.maximumTripletValue([12,6,1,2,7])
