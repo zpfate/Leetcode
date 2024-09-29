@@ -17,6 +17,7 @@
 		4B0382912C9418BB0017A382 /* Solution1997.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0382902C9418BB0017A382 /* Solution1997.swift */; };
 		4B0382942C9522EE0017A382 /* Snolutio2390.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0382932C9522EE0017A382 /* Snolutio2390.swift */; };
 		4B0382982C9D466D0017A382 /* Solution2873.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0382972C9D466D0017A382 /* Solution2873.swift */; };
+		4B03829C2CA135AE0017A382 /* Solution1014.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B03829B2CA135AE0017A382 /* Solution1014.swift */; };
 		4B13C7502BF48CD00032004B /* Solution496.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B13C74F2BF48CD00032004B /* Solution496.swift */; };
 		4B13C7532BF5A2AC0032004B /* Solution509.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B13C7522BF5A2AC0032004B /* Solution509.swift */; };
 		4B13C7562BF5A8590032004B /* Solution1137.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B13C7552BF5A8590032004B /* Solution1137.swift */; };
@@ -69,6 +70,7 @@
 		4B6DC9E62C460015008A9C1E /* Solution2956.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9E52C460015008A9C1E /* Solution2956.swift */; };
 		4B6DC9EA2C475221008A9C1E /* Solution6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9E92C475221008A9C1E /* Solution6.swift */; };
 		4B82BCAB2A1F5DDB00A4E716 /* Solution14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */; };
+		4B8BE3012CA8EEFD009AC073 /* Solution2073.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8BE3002CA8EEFD009AC073 /* Solution2073.swift */; };
 		4B8DF7A32C49F63A000D20D2 /* Solution3096.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7A22C49F63A000D20D2 /* Solution3096.swift */; };
 		4B8DF7A72C4A6548000D20D2 /* Solution144.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7A62C4A6548000D20D2 /* Solution144.swift */; };
 		4B8DF7AB2C4DE29D000D20D2 /* Solution94.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7AA2C4DE29D000D20D2 /* Solution94.swift */; };
@@ -157,6 +159,7 @@
 		4B0382952C9528540017A382 /* 2390. 从字符串中移除星号.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "2390. 从字符串中移除星号.md"; sourceTree = "<group>"; };
 		4B0382972C9D466D0017A382 /* Solution2873.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2873.swift; sourceTree = "<group>"; };
 		4B0382992C9D50390017A382 /* 2873. 有序三元组中的最大值 I.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "2873. 有序三元组中的最大值 I.md"; sourceTree = "<group>"; };
+		4B03829B2CA135AE0017A382 /* Solution1014.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution1014.swift; sourceTree = "<group>"; };
 		4B13C74F2BF48CD00032004B /* Solution496.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution496.swift; sourceTree = "<group>"; };
 		4B13C7522BF5A2AC0032004B /* Solution509.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution509.swift; sourceTree = "<group>"; };
 		4B13C7552BF5A8590032004B /* Solution1137.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution1137.swift; sourceTree = "<group>"; };
@@ -251,6 +254,8 @@
 		4B6DC9E92C475221008A9C1E /* Solution6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution6.swift; sourceTree = "<group>"; };
 		4B6DC9EB2C475290008A9C1E /* 6. Z 字形变换.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "6. Z 字形变换.md"; sourceTree = "<group>"; };
 		4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution14.swift; sourceTree = "<group>"; };
+		4B8BE3002CA8EEFD009AC073 /* Solution2073.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2073.swift; sourceTree = "<group>"; };
+		4B8BE3022CA8F6CC009AC073 /* 2073. 买票需要的时间.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "2073. 买票需要的时间.md"; sourceTree = "<group>"; };
 		4B8DF7A22C49F63A000D20D2 /* Solution3096.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3096.swift; sourceTree = "<group>"; };
 		4B8DF7A42C4A3DA9000D20D2 /* 3096. 得到更多分数的最少关卡数目.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3096. 得到更多分数的最少关卡数目.md"; sourceTree = "<group>"; };
 		4B8DF7A62C4A6548000D20D2 /* Solution144.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution144.swift; sourceTree = "<group>"; };
@@ -429,6 +434,14 @@
 				4B0382972C9D466D0017A382 /* Solution2873.swift */,
 			);
 			path = "2873. 有序三元组中的最大值 I";
+			sourceTree = "<group>";
+		};
+		4B03829A2CA1359B0017A382 /* 1014. 最佳观光组合 */ = {
+			isa = PBXGroup;
+			children = (
+				4B03829B2CA135AE0017A382 /* Solution1014.swift */,
+			);
+			path = "1014. 最佳观光组合";
 			sourceTree = "<group>";
 		};
 		4B13C74E2BF48C990032004B /* 496.下一个更大元素1 */ = {
@@ -874,6 +887,15 @@
 			path = "14.最长公共前缀";
 			sourceTree = "<group>";
 		};
+		4B8BE2FF2CA8EEEB009AC073 /* 2073. 买票需要的时间 */ = {
+			isa = PBXGroup;
+			children = (
+				4B8BE3022CA8F6CC009AC073 /* 2073. 买票需要的时间.md */,
+				4B8BE3002CA8EEFD009AC073 /* Solution2073.swift */,
+			);
+			path = "2073. 买票需要的时间";
+			sourceTree = "<group>";
+		};
 		4B8DF7A12C49F628000D20D2 /* 3096. 得到更多分数的最少关卡数目 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1268,6 +1290,8 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B8BE2FF2CA8EEEB009AC073 /* 2073. 买票需要的时间 */,
+				4B03829A2CA1359B0017A382 /* 1014. 最佳观光组合 */,
 				4B0382962C9D46570017A382 /* 2873. 有序三元组中的最大值 I */,
 				4B0382922C9522D00017A382 /* 2390. 从字符串中移除星号 */,
 				4B03828F2C9414F80017A382 /* 1997. 访问完所有房间的第一天 */,
@@ -1545,6 +1569,7 @@
 				4BCADB3D2BE8B6CB00BDB948 /* Sort.swift in Sources */,
 				4B6DC9E22C44F561008A9C1E /* Solution721.swift in Sources */,
 				4B8DF7B52C4E3EE9000D20D2 /* Solution2101.swift in Sources */,
+				4B03829C2CA135AE0017A382 /* Solution1014.swift in Sources */,
 				4B9FEA1C2C88239F00835681 /* Solution2860.swift in Sources */,
 				4B33649F2C6C416B0030D483 /* Solution3152.swift in Sources */,
 				4BCD93F12AA9D84200FBA5B3 /* Solution206.swift in Sources */,
@@ -1554,6 +1579,7 @@
 				4B8DF7BA2C4F519B000D20D2 /* Solution102.swift in Sources */,
 				5B56927E292751E300DB792C /* Solution5.swift in Sources */,
 				4B6DC9DE2C40BF5A008A9C1E /* Solution2974.swift in Sources */,
+				4B8BE3012CA8EEFD009AC073 /* Solution2073.swift in Sources */,
 				4B6DC96E2C196EB3008A9C1E /* Solution153.swift in Sources */,
 				4B8DF7D32C5492F2000D20D2 /* Solution3106.swift in Sources */,
 				4BA19FCA2AA02E36008F33BF /* Solution876.swift in Sources */,
