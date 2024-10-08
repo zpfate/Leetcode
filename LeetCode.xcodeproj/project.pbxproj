@@ -71,6 +71,7 @@
 		4B6DC9EA2C475221008A9C1E /* Solution6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6DC9E92C475221008A9C1E /* Solution6.swift */; };
 		4B82BCAB2A1F5DDB00A4E716 /* Solution14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */; };
 		4B8BE3012CA8EEFD009AC073 /* Solution2073.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8BE3002CA8EEFD009AC073 /* Solution2073.swift */; };
+		4B8BE3052CB4C9C9009AC073 /* Solution1436.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8BE3042CB4C9C9009AC073 /* Solution1436.swift */; };
 		4B8DF7A32C49F63A000D20D2 /* Solution3096.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7A22C49F63A000D20D2 /* Solution3096.swift */; };
 		4B8DF7A72C4A6548000D20D2 /* Solution144.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7A62C4A6548000D20D2 /* Solution144.swift */; };
 		4B8DF7AB2C4DE29D000D20D2 /* Solution94.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8DF7AA2C4DE29D000D20D2 /* Solution94.swift */; };
@@ -256,6 +257,8 @@
 		4B82BCAA2A1F5DDB00A4E716 /* Solution14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution14.swift; sourceTree = "<group>"; };
 		4B8BE3002CA8EEFD009AC073 /* Solution2073.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution2073.swift; sourceTree = "<group>"; };
 		4B8BE3022CA8F6CC009AC073 /* 2073. 买票需要的时间.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "2073. 买票需要的时间.md"; sourceTree = "<group>"; };
+		4B8BE3042CB4C9C9009AC073 /* Solution1436.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution1436.swift; sourceTree = "<group>"; };
+		4B8BE3062CB4CD7F009AC073 /* 1436. 旅行终点站.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "1436. 旅行终点站.md"; sourceTree = "<group>"; };
 		4B8DF7A22C49F63A000D20D2 /* Solution3096.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3096.swift; sourceTree = "<group>"; };
 		4B8DF7A42C4A3DA9000D20D2 /* 3096. 得到更多分数的最少关卡数目.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3096. 得到更多分数的最少关卡数目.md"; sourceTree = "<group>"; };
 		4B8DF7A62C4A6548000D20D2 /* Solution144.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution144.swift; sourceTree = "<group>"; };
@@ -896,6 +899,15 @@
 			path = "2073. 买票需要的时间";
 			sourceTree = "<group>";
 		};
+		4B8BE3032CB4C9B4009AC073 /* 1436. 旅行终点站 */ = {
+			isa = PBXGroup;
+			children = (
+				4B8BE3062CB4CD7F009AC073 /* 1436. 旅行终点站.md */,
+				4B8BE3042CB4C9C9009AC073 /* Solution1436.swift */,
+			);
+			path = "1436. 旅行终点站";
+			sourceTree = "<group>";
+		};
 		4B8DF7A12C49F628000D20D2 /* 3096. 得到更多分数的最少关卡数目 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1290,6 +1302,7 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4B8BE3032CB4C9B4009AC073 /* 1436. 旅行终点站 */,
 				4B8BE2FF2CA8EEEB009AC073 /* 2073. 买票需要的时间 */,
 				4B03829A2CA1359B0017A382 /* 1014. 最佳观光组合 */,
 				4B0382962C9D46570017A382 /* 2873. 有序三元组中的最大值 I */,
@@ -1633,6 +1646,7 @@
 				4B6DC9B02C323E0D008A9C1E /* Solution226.swift in Sources */,
 				4B0262912C084E4500AE2B3B /* Solution704.swift in Sources */,
 				4B8DF7AB2C4DE29D000D20D2 /* Solution94.swift in Sources */,
+				4B8BE3052CB4C9C9009AC073 /* Solution1436.swift in Sources */,
 				4B9FE9DE2C7EB1B200835681 /* Solution3144.swift in Sources */,
 				4B6DC9C22C3690FB008A9C1E /* Solution111.swift in Sources */,
 				4B37D1912A8CBD63007E6D13 /* Solution74.swift in Sources */,
