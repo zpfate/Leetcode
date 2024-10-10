@@ -28,16 +28,15 @@ extension Solution {
             
             let cityA = path.first!
             let cityB = path.last!
-            setA.insert(cityA)
-            setB.insert(cityB)
-        }
-        
-        for city in setA {
-            if setB.contains(city) {
-                setB.remove(city)
+            
+            setB.remove(cityA)
+            if !setA.contains(cityB) {
+                setB.insert(cityB)
             }
+            
+            setA.insert(cityA)
         }
-        
+
         return setB.first!
     }
 }

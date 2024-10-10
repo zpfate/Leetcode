@@ -119,6 +119,7 @@
 		4BCD942D2AB3139B00FBA5B3 /* Solution61.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCD942C2AB3139B00FBA5B3 /* Solution61.swift */; };
 		4BD1827E2A690F0700333B8A /* Solution88.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD1827D2A690F0700333B8A /* Solution88.swift */; };
 		4BEC12452C6D961F0070B094 /* Solution3148.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC12442C6D961F0070B094 /* Solution3148.swift */; };
+		4BEE50792CB7735800A52FFA /* Solution3162.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEE50782CB7735800A52FFA /* Solution3162.swift */; };
 		5B36B20428C1902C00E14D15 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36B20328C1902C00E14D15 /* main.swift */; };
 		5B36B20C28C1911700E14D15 /* Solution1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36B20B28C1911700E14D15 /* Solution1.swift */; };
 		5B36B20F28C1917C00E14D15 /* Solution2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36B20E28C1917C00E14D15 /* Solution2.swift */; };
@@ -328,6 +329,7 @@
 		4BCD942C2AB3139B00FBA5B3 /* Solution61.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution61.swift; sourceTree = "<group>"; };
 		4BD1827D2A690F0700333B8A /* Solution88.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution88.swift; sourceTree = "<group>"; };
 		4BEC12442C6D961F0070B094 /* Solution3148.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3148.swift; sourceTree = "<group>"; };
+		4BEE50782CB7735800A52FFA /* Solution3162.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3162.swift; sourceTree = "<group>"; };
 		5B36B20028C1902C00E14D15 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B36B20328C1902C00E14D15 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5B36B20B28C1911700E14D15 /* Solution1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution1.swift; sourceTree = "<group>"; };
@@ -1283,6 +1285,14 @@
 			path = "3148. 矩阵中的最大得分";
 			sourceTree = "<group>";
 		};
+		4BEE50772CB7734600A52FFA /* 3162. 优质数对的总数 I */ = {
+			isa = PBXGroup;
+			children = (
+				4BEE50782CB7735800A52FFA /* Solution3162.swift */,
+			);
+			path = "3162. 优质数对的总数 I";
+			sourceTree = "<group>";
+		};
 		5B36B1F728C1902C00E14D15 = {
 			isa = PBXGroup;
 			children = (
@@ -1302,6 +1312,7 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4BEE50772CB7734600A52FFA /* 3162. 优质数对的总数 I */,
 				4B8BE3032CB4C9B4009AC073 /* 1436. 旅行终点站 */,
 				4B8BE2FF2CA8EEEB009AC073 /* 2073. 买票需要的时间 */,
 				4B03829A2CA1359B0017A382 /* 1014. 最佳观光组合 */,
@@ -1614,6 +1625,7 @@
 				4BEC12452C6D961F0070B094 /* Solution3148.swift in Sources */,
 				4B9FEA142C85B79100835681 /* Solution2024.swift in Sources */,
 				4B9FEA272C91236200835681 /* Solution2555.swift in Sources */,
+				4BEE50792CB7735800A52FFA /* Solution3162.swift in Sources */,
 				4B6DC9B42C338EB8008A9C1E /* Solution3115.swift in Sources */,
 				4B8DF7CF2C532CFB000D20D2 /* Solution2740.swift in Sources */,
 				4B6DC99C2C2A534B008A9C1E /* Solution2732.swift in Sources */,
