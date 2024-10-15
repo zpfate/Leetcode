@@ -8,8 +8,54 @@
 import Foundation
 
 
-
 class SolutionX {
+    
+    
+    func threeSumClosest(_ nums: [Int], target: Int) -> Int {
+        
+        if nums.isEmpty {
+            return 0
+        }
+        
+        let sorted = nums.sorted()
+        let n = sorted.count
+        var start = 0
+        var res: Int?
+       
+        // -4, -1, 1, 2
+        while start + 1 < n {
+            
+            var l = start + 1
+            var r = n - 1
+            
+        
+            while l < r {
+                
+                let sum = sorted[start] + sorted[l] + sorted[r]
+                if sum == target {
+                    return sum
+                }
+                
+                if res == nil {
+                    res = sum
+                } else {
+                    
+                    if abs(target - sum) < abs(target - res!) {
+                        res = sum
+                    }
+                }
+                
+                if sum > target {
+                    r -= 1
+                } else {
+                    l += 1
+                }
+            }
+            start += 1
+        }
+        return res!
+    }
+
     
     func threeSumClosest(_ nums: [Int], _ target: Int) -> Int {
         
