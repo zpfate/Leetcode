@@ -22,24 +22,10 @@ extension Solution {
     func maxHeightOfTriangle(_ red: Int, _ blue: Int) -> Int {
         
         var res = 0
-        var blueStart = 1
-        var redStart = 2
-        while redStart <= red || blueStart <= blue {
-            
-            if redStart <= red {
-                res += 1
-            }
-            
-            if blueStart <= blue {
-                res += 1
-            }
-            
-            blueStart += 2
-            redStart += 2
-        }
         
         return res
-
     }
+    
+
     
 }
