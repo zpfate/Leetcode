@@ -26,11 +26,11 @@ extension Solution {
         while num != 0 {
             
             let tmp = num % 10
-            // 判断是否 大于 最大32位整数
+            // 判断是否 大于 最大32位整数, 7 是 2^31 - 1 的个位数
             if (res > 214748364 || (res == 214748364 && tmp > 7)) {
                 return 0;
             }
-            //判断是否 小于 最小32位整数
+            //判断是否 小于 最小32位整数 8 是-2^31 的个位数
             if (res < -214748364 || (res == -214748364 && tmp < -8)) {
                 return 0;
             }
@@ -41,5 +41,10 @@ extension Solution {
         }
         
         return res
+
     }
 }
+
+
+
+
