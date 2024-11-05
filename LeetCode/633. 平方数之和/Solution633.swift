@@ -23,7 +23,6 @@ extension Solution {
         var left = 0
         var right = Int(sqrt(Double(c)))
         
-        
         while left <= right {
             
             if insidePow(left, 2) + insidePow(right, 2) > c {
@@ -36,8 +35,6 @@ extension Solution {
         }
         return false
     }
-        
-        
     
     private func insidePow(_ x: Int, _ y: Int) -> Int {
         

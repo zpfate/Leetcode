@@ -106,6 +106,7 @@
 		4BA19FD02AA0AA39008F33BF /* Solution19.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA19FCF2AA0AA39008F33BF /* Solution19.swift */; };
 		4BAD541D2C5B1FC400C8A19C /* SolutionLCP40.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD541C2C5B1FC400C8A19C /* SolutionLCP40.swift */; };
 		4BAE13F62CD85B9400E72AA3 /* Solution633.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE13F52CD85B9400E72AA3 /* Solution633.swift */; };
+		4BAE13F92CD9EFED00E72AA3 /* Solution3222.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAE13F82CD9EFED00E72AA3 /* Solution3222.swift */; };
 		4BCADB382BE8AED000BDB948 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCADB372BE8AED000BDB948 /* Solution.swift */; };
 		4BCADB3A2BE8AF2300BDB948 /* Solution15.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCADB392BE8AF2300BDB948 /* Solution15.swift */; };
 		4BCADB3D2BE8B6CB00BDB948 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCADB3C2BE8B6CB00BDB948 /* Sort.swift */; };
@@ -319,6 +320,7 @@
 		4BAD541E2C5B5F5F00C8A19C /* LCP 40. 心算挑战.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "LCP 40. 心算挑战.md"; sourceTree = "<group>"; };
 		4BAE13F32CD85AC500E72AA3 /* 7. 整数反转.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "7. 整数反转.md"; sourceTree = "<group>"; };
 		4BAE13F52CD85B9400E72AA3 /* Solution633.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution633.swift; sourceTree = "<group>"; };
+		4BAE13F82CD9EFED00E72AA3 /* Solution3222.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3222.swift; sourceTree = "<group>"; };
 		4BCADB372BE8AED000BDB948 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 		4BCADB392BE8AF2300BDB948 /* Solution15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution15.swift; sourceTree = "<group>"; };
 		4BCADB3C2BE8B6CB00BDB948 /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
@@ -1194,6 +1196,14 @@
 			path = "633. 平方数之和";
 			sourceTree = "<group>";
 		};
+		4BAE13F72CD9EFDD00E72AA3 /* 3222. 求出硬币游戏的赢家 */ = {
+			isa = PBXGroup;
+			children = (
+				4BAE13F82CD9EFED00E72AA3 /* Solution3222.swift */,
+			);
+			path = "3222. 求出硬币游戏的赢家";
+			sourceTree = "<group>";
+		};
 		4BCADB362BE8AE7900BDB948 /* 15.三数之和 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1344,6 +1354,7 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				4BAE13F72CD9EFDD00E72AA3 /* 3222. 求出硬币游戏的赢家 */,
 				4BAE13F42CD85B8400E72AA3 /* 633. 平方数之和 */,
 				4BEE507D2CC8893900A52FFA /* 7. 整数反转 */,
 				4BEE507A2CBE6B6700A52FFA /* 3200. 三角形的最大高度 */,
@@ -1689,6 +1700,7 @@
 				4B6DC9D92C3F6733008A9C1E /* Solution2972.swift in Sources */,
 				4B82BCAB2A1F5DDB00A4E716 /* Solution14.swift in Sources */,
 				4BD1827E2A690F0700333B8A /* Solution88.swift in Sources */,
+				4BAE13F92CD9EFED00E72AA3 /* Solution3222.swift in Sources */,
 				4B33645A2C6AEE8B0030D483 /* Solution3151.swift in Sources */,
 				4B6DC9992C29126B008A9C1E /* Solution503.swift in Sources */,
 				4B6DC9B02C323E0D008A9C1E /* Solution226.swift in Sources */,
