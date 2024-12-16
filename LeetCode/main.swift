@@ -9,6 +9,9 @@ import Foundation
 
 let solution = Solution()
 
+Solution().myAtoi("0-1")
+
+
 // ***** 排序 *****
 // var nums = [3, 6, 8, 10, 1, 1, 2, 7, 4, 5, 9]
 // Sort.quick(&nums, 0, nums.count - 1)

@@ -124,6 +124,7 @@
 		4BEE50792CB7735800A52FFA /* Solution3162.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEE50782CB7735800A52FFA /* Solution3162.swift */; };
 		4BEE507C2CBE6B8F00A52FFA /* Solution3200.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEE507B2CBE6B8F00A52FFA /* Solution3200.swift */; };
 		4BEE507F2CC8894F00A52FFA /* Solution7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEE507E2CC8894F00A52FFA /* Solution7.swift */; };
+		4BF99B042CEDAF42001B3199 /* Solution8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF99B032CEDAF42001B3199 /* Solution8.swift */; };
 		5B36B20428C1902C00E14D15 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36B20328C1902C00E14D15 /* main.swift */; };
 		5B36B20C28C1911700E14D15 /* Solution1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36B20B28C1911700E14D15 /* Solution1.swift */; };
 		5B36B20F28C1917C00E14D15 /* Solution2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B36B20E28C1917C00E14D15 /* Solution2.swift */; };
@@ -335,10 +336,12 @@
 		4BCD93F02AA9D84200FBA5B3 /* Solution206.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution206.swift; sourceTree = "<group>"; };
 		4BCD942C2AB3139B00FBA5B3 /* Solution61.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution61.swift; sourceTree = "<group>"; };
 		4BD1827D2A690F0700333B8A /* Solution88.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution88.swift; sourceTree = "<group>"; };
+		4BE5E1AF2D0FBDE5005C4AE9 /* 8. 字符串转换整数 (atoi).md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "8. 字符串转换整数 (atoi).md"; sourceTree = "<group>"; };
 		4BEC12442C6D961F0070B094 /* Solution3148.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3148.swift; sourceTree = "<group>"; };
 		4BEE50782CB7735800A52FFA /* Solution3162.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3162.swift; sourceTree = "<group>"; };
 		4BEE507B2CBE6B8F00A52FFA /* Solution3200.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3200.swift; sourceTree = "<group>"; };
 		4BEE507E2CC8894F00A52FFA /* Solution7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution7.swift; sourceTree = "<group>"; };
+		4BF99B032CEDAF42001B3199 /* Solution8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution8.swift; sourceTree = "<group>"; };
 		5B36B20028C1902C00E14D15 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B36B20328C1902C00E14D15 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5B36B20B28C1911700E14D15 /* Solution1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution1.swift; sourceTree = "<group>"; };
@@ -1335,6 +1338,15 @@
 			path = "7. 整数反转";
 			sourceTree = "<group>";
 		};
+		4BF99B022CEDAF25001B3199 /* 8. 字符串转换整数 (atoi) */ = {
+			isa = PBXGroup;
+			children = (
+				4BE5E1AF2D0FBDE5005C4AE9 /* 8. 字符串转换整数 (atoi).md */,
+				4BF99B032CEDAF42001B3199 /* Solution8.swift */,
+			);
+			path = "8. 字符串转换整数 (atoi)";
+			sourceTree = "<group>";
+		};
 		5B36B1F728C1902C00E14D15 = {
 			isa = PBXGroup;
 			children = (
@@ -1354,6 +1366,8 @@
 		5B36B20228C1902C00E14D15 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				5B36B20328C1902C00E14D15 /* main.swift */,
+				4BF99B022CEDAF25001B3199 /* 8. 字符串转换整数 (atoi) */,
 				4BAE13F72CD9EFDD00E72AA3 /* 3222. 求出硬币游戏的赢家 */,
 				4BAE13F42CD85B8400E72AA3 /* 633. 平方数之和 */,
 				4BEE507D2CC8893900A52FFA /* 7. 整数反转 */,
@@ -1476,7 +1490,6 @@
 				5B5692822927737700DB792C /* 排序算法 */,
 				5B56927F292759E400DB792C /* 算法 */,
 				4B6DC98C2C255FB2008A9C1E /* LCP61.气温变化趋势 */,
-				5B36B20328C1902C00E14D15 /* main.swift */,
 				4BCADB372BE8AED000BDB948 /* Solution.swift */,
 				4B3363E82C64673C0030D483 /* SolutionX.swift */,
 			);
@@ -1722,6 +1735,7 @@
 				4B3363D82C623CE00030D483 /* Solution98.swift in Sources */,
 				4B8DF7C22C51DD1B000D20D2 /* Solution2844.swift in Sources */,
 				4B68FE8F2A97519B009FA727 /* Solution20.swift in Sources */,
+				4BF99B042CEDAF42001B3199 /* Solution8.swift in Sources */,
 				4B3363E92C64673C0030D483 /* SolutionX.swift in Sources */,
 				4B13C7592BF5D8F80032004B /* Solution213.swift in Sources */,
 				4B3363EC2C6490E40030D483 /* Solution16.swift in Sources */,
