@@ -120,6 +120,7 @@
 		4BCD93F12AA9D84200FBA5B3 /* Solution206.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCD93F02AA9D84200FBA5B3 /* Solution206.swift */; };
 		4BCD942D2AB3139B00FBA5B3 /* Solution61.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCD942C2AB3139B00FBA5B3 /* Solution61.swift */; };
 		4BD1827E2A690F0700333B8A /* Solution88.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD1827D2A690F0700333B8A /* Solution88.swift */; };
+		4BD3F53A2D6C1C1E00FD5A78 /* Solution1656.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD3F5392D6C1C1300FD5A78 /* Solution1656.swift */; };
 		4BEC12452C6D961F0070B094 /* Solution3148.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC12442C6D961F0070B094 /* Solution3148.swift */; };
 		4BEE50792CB7735800A52FFA /* Solution3162.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEE50782CB7735800A52FFA /* Solution3162.swift */; };
 		4BEE507C2CBE6B8F00A52FFA /* Solution3200.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEE507B2CBE6B8F00A52FFA /* Solution3200.swift */; };
@@ -336,6 +337,7 @@
 		4BCD93F02AA9D84200FBA5B3 /* Solution206.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution206.swift; sourceTree = "<group>"; };
 		4BCD942C2AB3139B00FBA5B3 /* Solution61.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution61.swift; sourceTree = "<group>"; };
 		4BD1827D2A690F0700333B8A /* Solution88.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution88.swift; sourceTree = "<group>"; };
+		4BD3F5392D6C1C1300FD5A78 /* Solution1656.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution1656.swift; sourceTree = "<group>"; };
 		4BE5E1AF2D0FBDE5005C4AE9 /* 8. 字符串转换整数 (atoi).md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "8. 字符串转换整数 (atoi).md"; sourceTree = "<group>"; };
 		4BEC12442C6D961F0070B094 /* Solution3148.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3148.swift; sourceTree = "<group>"; };
 		4BEE50782CB7735800A52FFA /* Solution3162.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution3162.swift; sourceTree = "<group>"; };
@@ -1305,6 +1307,14 @@
 			path = "88.合并两个有序数组";
 			sourceTree = "<group>";
 		};
+		4BD3F5382D6C1BFE00FD5A78 /* 1656. 设计有序流 */ = {
+			isa = PBXGroup;
+			children = (
+				4BD3F5392D6C1C1300FD5A78 /* Solution1656.swift */,
+			);
+			path = "1656. 设计有序流";
+			sourceTree = "<group>";
+		};
 		4BEC12432C6D96040070B094 /* 3148. 矩阵中的最大得分 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1367,6 +1377,7 @@
 			isa = PBXGroup;
 			children = (
 				5B36B20328C1902C00E14D15 /* main.swift */,
+				4BD3F5382D6C1BFE00FD5A78 /* 1656. 设计有序流 */,
 				4BF99B022CEDAF25001B3199 /* 8. 字符串转换整数 (atoi) */,
 				4BAE13F72CD9EFDD00E72AA3 /* 3222. 求出硬币游戏的赢家 */,
 				4BAE13F42CD85B8400E72AA3 /* 633. 平方数之和 */,
@@ -1660,6 +1671,7 @@
 				4B8DF7D62C571EC7000D20D2 /* Solution682.swift in Sources */,
 				4B0262942C08517800AE2B3B /* Solution852.swift in Sources */,
 				4B8DF7BA2C4F519B000D20D2 /* Solution102.swift in Sources */,
+				4BD3F53A2D6C1C1E00FD5A78 /* Solution1656.swift in Sources */,
 				5B56927E292751E300DB792C /* Solution5.swift in Sources */,
 				4B6DC9DE2C40BF5A008A9C1E /* Solution2974.swift in Sources */,
 				4B8BE3012CA8EEFD009AC073 /* Solution2073.swift in Sources */,
@@ -1897,7 +1909,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = 8X3Q8YY56J;
+				DEVELOPMENT_TEAM = QNMCTRKH9M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1909,7 +1921,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = 8X3Q8YY56J;
+				DEVELOPMENT_TEAM = QNMCTRKH9M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
